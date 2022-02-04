@@ -1,0 +1,149 @@
+/*
+Theme Name:   Enrollment Lite
+Theme URI:    https://codevibrant.com/wpthemes/enrollment-lite/
+Author:       CodeVibrant
+Author URI:   https://codevibrant.com/
+Description:  Enrollment Lite is the child theme of Enrollment which is a clean and modern WordPress Theme for all kinds of Educational center like School, College, University & Training center. It is perfect for any kind of Educational website. It is easy to use & has powerful features. Launch your institutional site with the Enrollment education WordPress theme!
+Version:      1.0.1
+License:      GNU General Public License v3 or later
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+Template:     enrollment
+Text Domain:  enrollment-lite
+Tags:         blog, education, portfolio, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, featured-image-header, translation-ready
+
+*/
+
+.home #masthead-sticky-wrapper {
+  position: static;
+}
+
+.home #masthead {
+  position: static;
+  width: 100%;
+  transform: none;
+}
+
+.slider-content-wrapper {
+  top: 45%;
+}
+
+.slider-content-block {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px 30px;
+}
+
+.enrollment-slider-wrapper .slide-title {
+  font-size: 32px;
+}
+
+.slide-content {
+  font-size: 18px;
+}
+
+.slider-overlay {
+  background: rgba(0, 33, 71, 0.5);
+}
+
+.enrollment_service .grid-items-wrapper .single-post-wrapper:first-child {
+  background: #ECB101;
+}
+
+.enrollment_service .grid-items-wrapper .single-post-wrapper {
+  width: 33.33%;
+  text-align: center;
+}
+
+.enrollment_call_to_action .section-wrapper::before {
+  background: rgba(0, 33, 71, 0.7);
+}
+
+.team-title-wrapper {
+  position: relative;
+  background: #fff;
+  text-align: center;
+  color: #333;
+  top: -40px;
+  width: 90%;
+  margin: 0 auto -40px;
+}
+
+.team-title-wrapper .post-title a {
+  color: #333;
+}
+
+.team-position {
+  color: #9c9c9c;
+}
+
+.team-wrapper .team-desc-wrapper {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.error404 .entry-header {
+  display: none;
+}
+
+.error404 #primary {
+  margin: 60px 0;
+}
+
+@media (max-width: 850px) {
+  .enrollment_service .grid-items-wrapper .single-post-wrapper {
+    width: 50%;
+  }
+
+  .slider-btn {
+    padding: 2px 20px;
+  }
+
+  #masthead {
+    border-bottom: 1px solid #e1e1e1;
+  }
+}
+
+@media (max-width: 767px) {
+  .enrollment_service .grid-items-wrapper .single-post-wrapper {
+    width: 100%;
+  }
+
+  .slider-content-block {
+    padding: 10px 10px;
+  }
+
+  .enrollment-slider-wrapper .slide-title {
+    font-size: 24px;
+  }
+
+  #colophon #top-footer {
+    padding: 0 20px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .site-branding {
+    width: 230px;
+  }
+
+  .latest-posts-wrapper .single-post-wrapper.cv-column-3 {
+    margin-bottom: 30px;
+  }
+
+  #colophon {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .enrollment-slider-wrapper .slide-title {
+    font-size: 18px;
+    line-height: 34px;
+    margin: 0;
+  }
+
+  .slider-btn {
+    font-size: 12px;
+    padding: 3px 15px;
+    margin-top: 14px;
+  }
+}

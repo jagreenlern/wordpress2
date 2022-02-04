@@ -1,0 +1,46 @@
+/*----- Banner Section -----*/
+.banner-section{
+  width: auto;
+  height: auto;
+}
+.banner-section .wp-block-button__link{
+  color: #000 !important;
+  border: 0;
+  padding: 15px 20px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.banner-section .wp-block-button__link:hover{
+  background: #1C3248 !important;
+  color: #fff !important;
+}
+.banner-section .wp-block-button__link:after{
+  content: "\f105";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-left: 8px;
+}
+
+/*------ Media CSS ------*/
+@media screen and (max-width: 768px) and (min-width: 576px){
+  .banner-section .wp-block-column:first-child, .banner-section .wp-block-column:nth-child(3){
+    flex-basis: 10% !important;
+  }
+  .banner-section .wp-block-column:nth-child(2){
+    flex-basis: 70% !important;
+  }
+  .services-section .wp-block-column{
+    flex-basis: 31% !important;
+  }
+  .services-section .wp-block-column:nth-child(2){
+    margin: 0 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .banner-section{
+    min-height: auto !important;
+  }
+  .banner-section p{
+    display: none;
+  }
+}

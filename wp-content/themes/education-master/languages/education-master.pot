@@ -1,0 +1,1712 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: themeeggofficial@gmail.com\n"
+"POT-Creation-Date: 2018-10-02 08:19:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.1\n"
+
+#: core/admin/class-education-master-admin.php:365
+#: core/admin/class-education-master-admin.php:366
+msgid "6"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:360
+msgid "7"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:341
+msgid "15"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:361
+msgid "16"
+msgstr ""
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "error"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:36
+#. translators: 1: title.
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:39
+#: core/admin/class-education-master-admin.php:130
+msgid "About"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:82
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:86
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:102
+msgid "Dismiss"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:105
+#. translators: 1: anchor tag start, 2: anchor tag end
+msgid ""
+"Welcome! Thank you for choosing education master! To fully take advantage "
+"of the best our theme can offer please make sure you visit our %1$swelcome "
+"page%1$s."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:109
+msgid "Get started with Education Master"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:147
+#: core/edm-customizer/parts/edm-important-link-panel.php:28
+msgid "Theme Info"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:151
+#: core/edm-customizer/parts/edm-important-link-panel.php:40
+msgid "View Demo"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:155
+#: core/edm-customizer/parts/edm-important-link-panel.php:44
+msgid "Rate this theme"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:158
+msgid "View Pro Version"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:174
+msgid "Changelog"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:212
+msgid "Theme Customizer"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:213
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:215
+msgid "Customize"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:220
+#: core/admin/class-education-master-admin.php:223
+#: core/edm-customizer/parts/edm-important-link-panel.php:36
+msgid "Documentation"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:221
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:228
+msgid "Got theme support question?"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:229
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:231
+#: core/admin/class-education-master-admin.php:329
+#: core/edm-customizer/parts/edm-important-link-panel.php:32
+msgid "Support"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:236
+msgid "Any question about this theme or us?"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:237
+msgid "Please send it via our sales contact page."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:239
+msgid "Contact Page"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:246
+#: core/admin/class-education-master-admin.php:255
+msgid "Translate"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:250
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:267
+msgid "Return to Updates"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:267
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:270
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:270
+msgid "Go to Dashboard"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:288
+msgid "View changelog below:"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:316
+msgid "Upgrade to PRO version for more awesome features."
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:321
+msgid "Features"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:323
+#: core/edm-customizer/parts/edm-footer-panel.php:138
+#: core/edm-hooks/edm-footer-hooks.php:72
+msgid "Education Master"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:324
+msgid "Education Master Pro"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:330
+msgid "Forum"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:331
+msgid "Forum + Emails/Support Ticket"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:334
+msgid "Category color options"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:339
+msgid "Additional color options"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:344
+msgid "Primary color option"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:349
+msgid "Font size options"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:354
+msgid "Google fonts options"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:356
+msgid "500+"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:359
+msgid "Custom widgets"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:364
+msgid "Social icons"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:369
+msgid "Social sharing"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:374
+msgid "Site layout option"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:379
+msgid "Options in breaking news"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:384
+msgid "Change read more text"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:389
+msgid "Related posts"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:394
+msgid "Author biography"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:399
+msgid "Footer copyright editor"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:404
+msgid "728x90 Advertisement"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:409
+msgid "Featured category slider"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:414
+msgid "Random posts widget"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:419
+msgid "Tabbed widget"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:424
+msgid "Videos"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:430
+msgid "WooCommerce compatible"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:435
+msgid "Multiple header options"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:440
+msgid "Readmore flying card"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:445
+msgid "Weather widget"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:450
+msgid "Currency converter widget"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:455
+msgid "Category enable/disable option"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:460
+msgid "Reading indicator option"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:465
+msgid "Lightbox support"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:470
+#: core/edm-widgets/edm-cta.php:26
+msgid "Call to action widget"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:475
+msgid "Contact us template"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:485
+#: core/edm-customizer/parts/edm-important-link-panel.php:24
+msgid "View Pro"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:534
+msgid "This theme recommends following plugins:"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:537
+#: core/edm-customizer/parts/edm-additional-panel.php:38
+#: core/edm-customizer/parts/edm-header-panel.php:118
+msgid "Social Icons"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:538
+#: core/admin/class-education-master-admin.php:542
+msgid " by ThemeEgg"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:541
+msgid "Easy Social Sharing"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:545
+msgid "Contact Form 7"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:547
+msgid "WP-PageNavi"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:549
+msgid "WooCommerce"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:552
+msgid "Polylang"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:553
+#: core/admin/class-education-master-admin.php:558
+msgid "Fully Compatible in Pro Version"
+msgstr ""
+
+#: core/admin/class-education-master-admin.php:557
+msgid "WPML"
+msgstr ""
+
+#: core/edm-customizer/parts/customizer-default.php:37
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: core/edm-customizer/parts/customizer-default.php:41
+msgid "Blog"
+msgstr ""
+
+#: core/edm-customizer/parts/customizer-default.php:43
+#: core/edm-customizer/parts/customizer-default.php:62
+msgid "Read More"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:25
+msgid "Additional Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:65
+msgid "Social Media Icons"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:69
+msgid "Social Media Icon"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:70
+msgid "Add Icon"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:75
+msgid "Social Media Logo"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:76
+msgid "Choose social media icon."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:80
+msgid "Social Icon Url"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:81
+msgid "Enter social media url."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:95
+msgid "Widget Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:118
+msgid "Category Link"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:119
+msgid ""
+"Enable/Disable option for category link for widget title in block layout "
+"widget."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:122
+#: core/edm-customizer/parts/edm-additional-panel.php:151
+#: core/edm-customizer/parts/edm-header-panel.php:163
+msgid "Enable"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:123
+#: core/edm-customizer/parts/edm-additional-panel.php:152
+#: core/edm-customizer/parts/edm-header-panel.php:164
+msgid "Disable"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:147
+msgid "Category Color"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-additional-panel.php:148
+msgid ""
+"Enable/Disable option for category color for widget title in block layout "
+"widget."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-custom-classes.php:23
+msgid "&mdash; Select Category &mdash;"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-custom-classes.php:290
+msgid "Delete"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-custom-classes.php:291
+msgid "Close"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-sanitize.php:48
+#: core/edm-customizer/parts/edm-general-panel.php:119
+msgid "Full Width Style"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-sanitize.php:49
+#: core/edm-customizer/parts/edm-general-panel.php:120
+msgid "Box Style"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-sanitize.php:65
+#: core/edm-customizer/parts/edm-design-panel.php:289
+#: core/edm-customizer/parts/edm-footer-panel.php:65
+#: core/edm-customizer/parts/edm-header-panel.php:64
+#: core/edm-customizer/parts/edm-header-panel.php:93
+#: core/edm-customizer/parts/edm-header-panel.php:122
+#: core/edm-customizer/parts/edm-header-panel.php:191
+#: core/edm-customizer/parts/edm-header-panel.php:247
+msgid "Show"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-sanitize.php:66
+#: core/edm-customizer/parts/edm-design-panel.php:290
+#: core/edm-customizer/parts/edm-footer-panel.php:66
+#: core/edm-customizer/parts/edm-header-panel.php:65
+#: core/edm-customizer/parts/edm-header-panel.php:94
+#: core/edm-customizer/parts/edm-header-panel.php:123
+#: core/edm-customizer/parts/edm-header-panel.php:192
+#: core/edm-customizer/parts/edm-header-panel.php:248
+msgid "Hide"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-services.php:13
+msgid "Services"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-services.php:22
+msgid "Services Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-services.php:44
+msgid "Service"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-services.php:62
+#: core/edm-customizer/parts/edm-customizer-slider.php:118
+msgid "Select Page"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-services.php:81
+msgid "Background Color"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-services.php:99
+msgid "Service ICON (font awesome icon)"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:13
+msgid "Feature Slider"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:22
+msgid "Slider Type"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:39
+msgid "Enable Slider On"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:56
+msgid "Select Slider Type"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:76
+msgid "No of Slides"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:77
+msgid ""
+"Enter number between 1 and 10. Save and refresh the page if No of Slides is "
+"changed."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:100
+msgid "Slide"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:135
+#: core/edm-customizer/parts/edm-customizer-slider.php:255
+msgid "Caption Alignment"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:156
+#: core/edm-customizer/parts/edm-design-panel.php:140
+msgid "Read More Text"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:167
+msgid "Slider Options"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:184
+msgid "Transition Effect"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:202
+msgid "Transition Delay"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:203
+#: core/edm-customizer/parts/edm-customizer-slider.php:221
+msgid "in seconds"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:220
+msgid "Transition Duration"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:238
+msgid "Enable Caption"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:274
+msgid "Enable Arrow"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:291
+msgid "Enable Autoplay"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-customizer-slider.php:308
+msgid "Enable Overlay"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:28
+msgid "Design Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:41
+msgid "Archive Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:63
+msgid "Archive Sidebars"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:64
+#: core/edm-customizer/parts/edm-design-panel.php:186
+#: core/edm-customizer/parts/edm-design-panel.php:243
+msgid "Choose sidebar from available layouts"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:68
+#: core/edm-customizer/parts/edm-design-panel.php:190
+#: core/edm-customizer/parts/edm-design-panel.php:247
+#: core/edm-widgets/edm-widget-functions.php:39
+msgid "Left Sidebar"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:72
+#: core/edm-customizer/parts/edm-design-panel.php:194
+#: core/edm-customizer/parts/edm-design-panel.php:251
+msgid "Right Sidebar"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:76
+#: core/edm-customizer/parts/edm-design-panel.php:198
+#: core/edm-customizer/parts/edm-design-panel.php:255
+msgid "No Sidebar"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:80
+#: core/edm-customizer/parts/edm-design-panel.php:202
+#: core/edm-customizer/parts/edm-design-panel.php:259
+msgid "No Sidebar Center"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:105
+msgid "Archive Layouts"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:106
+#: core/edm-customizer/parts/edm-footer-panel.php:90
+msgid "Choose layout from available layouts"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:110
+msgid "Classic"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:114
+msgid "Grid"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:131
+#: layouts/archive/classic.php:41 layouts/archive/grid.php:55
+msgid "Continue Reading"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:141
+msgid "Enter read more button text for archive page."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:163
+msgid "Page Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:185
+msgid "Page Sidebars"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:220
+msgid "Post Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:242
+msgid "Post Sidebars"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:285
+msgid "Related Post Option"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:286
+msgid "Show/Hide option for related posts section at single post page."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:305
+#: core/edm-hooks/edm-custom-hooks.php:33
+msgid "Related Posts"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-design-panel.php:314
+msgid "Related Post Section Title"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:25
+msgid "Footer Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:38
+msgid "Widget Area"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:61
+msgid "Footer Widget Section"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:62
+msgid "Show/Hide option for footer widget area section."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:89
+msgid "Footer Widget Layout"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:94
+msgid "Columns Four"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:98
+msgid "Columns Three"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:102
+msgid "Columns Two"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:106
+msgid "Column One"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:124
+msgid "Bottom Section"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:147
+msgid "Copyright Text"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-footer-panel.php:177
+msgid "Upload Parallax image"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:34
+msgid "General Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:55
+msgid "Theme Color"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:81
+msgid "Header Text Color"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:97
+msgid "Website Layout"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:98
+msgid "Choose a site to display your website more effectively."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:116
+msgid "Site Layout"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:133
+msgid "Preloader for Website"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:134
+msgid "Choose a Image For Website Preloader"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:153
+msgid "Upload preloader image"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-general-panel.php:176
+msgid "Display Site Title and Tagline"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:25
+msgid "Header Settings"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:37
+#: core/edm-customizer/parts/edm-header-panel.php:60
+msgid "Top Header Section"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:61
+msgid "Show/Hide option for top header section."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:89
+msgid "Current Date"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:90
+msgid "Show/Hide option for current date at top header section."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:119
+msgid "Show/Hide option for social media icons at top header section."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:136
+msgid "Header Option"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:159
+msgid "Sticky Menu"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:160
+msgid "Enable/Disable option for sticky menu."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:187
+msgid "Search Icon"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:188
+msgid "Show/Hide option for search icon at primary menu."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:210
+msgid "Header design style"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:211
+msgid "Change design of header syle (ie. center logo etc)"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:225
+msgid "Notice Section"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:243
+msgid "Notice Option"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:244
+msgid "Hide/show notice board section."
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:263
+#: core/edm-hooks/edm-header-hooks.php:275
+msgid "Notices"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-header-panel.php:272
+msgid "Notice Caption"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-important-link-panel.php:56
+msgid "Education Master Important Links"
+msgstr ""
+
+#: core/edm-customizer/parts/edm-important-link-panel.php:68
+msgid "Important Links"
+msgstr ""
+
+#: core/edm-functions/options.php:90
+msgid "Home Page"
+msgstr ""
+
+#: core/edm-functions/options.php:91
+msgid "Disabled"
+msgstr ""
+
+#: core/edm-functions/options.php:116
+msgid "Featured Pages"
+msgstr ""
+
+#: core/edm-functions/options.php:168
+msgid "Default (No header Banner style)"
+msgstr ""
+
+#: core/edm-functions/options.php:169
+msgid "Center Align"
+msgstr ""
+
+#: core/edm-functions/options.php:170
+msgid "Left Align"
+msgstr ""
+
+#: core/edm-hooks/edm-footer-hooks.php:80
+#. translators: 1: Theme name, 2: Theme author.
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:16
+msgid "Page Meta Options"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:29
+#: core/edm-metaboxes/edm-post-metabox.php:29
+msgid "Default Sidebar"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:35
+#: core/edm-metaboxes/edm-post-metabox.php:35
+msgid "Left sidebar"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:41
+#: core/edm-metaboxes/edm-post-metabox.php:41
+msgid "Right sidebar"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:47
+#: core/edm-metaboxes/edm-post-metabox.php:47
+msgid "No sidebar Full width"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:53
+#: core/edm-metaboxes/edm-post-metabox.php:53
+msgid "No sidebar Content Centered"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:72
+#: core/edm-metaboxes/edm-post-metabox.php:72
+msgid "Information"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:73
+#: core/edm-metaboxes/edm-post-metabox.php:73
+msgid "Sidebars"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:80
+#: core/edm-metaboxes/edm-post-metabox.php:80
+msgid "About Metabox Options"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:82
+#: core/edm-metaboxes/edm-post-metabox.php:82
+msgid ""
+"In this section we have lots of features which make your post unique and "
+"completely different."
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:88
+#: core/edm-metaboxes/edm-post-metabox.php:88
+msgid "Available Sidebars"
+msgstr ""
+
+#: core/edm-metaboxes/edm-page-metabox.php:89
+#: core/edm-metaboxes/edm-post-metabox.php:89
+msgid ""
+"Select sidebar from available options which replaced sidebar layout from "
+"customizer settings."
+msgstr ""
+
+#: core/edm-metaboxes/edm-post-metabox.php:16
+msgid "Post Meta Options"
+msgstr ""
+
+#: core/edm-widgets/edm-block-posts.php:26
+msgid "Displays block posts from selected category in different layouts."
+msgstr ""
+
+#: core/edm-widgets/edm-block-posts.php:28
+msgid "Block Posts"
+msgstr ""
+
+#: core/edm-widgets/edm-block-posts.php:43 core/edm-widgets/edm-carousel.php:43
+#: core/edm-widgets/edm-featured-posts.php:43
+msgid "Block title"
+msgstr ""
+
+#: core/edm-widgets/edm-block-posts.php:44 core/edm-widgets/edm-carousel.php:44
+#: core/edm-widgets/edm-featured-posts.php:44
+msgid "Enter your block title. (Optional - Leave blank to hide title.)"
+msgstr ""
+
+#: core/edm-widgets/edm-block-posts.php:50
+msgid "Block Category"
+msgstr ""
+
+#: core/edm-widgets/edm-carousel.php:26
+msgid "Displays posts from selected categories in carousel layouts."
+msgstr ""
+
+#: core/edm-widgets/edm-carousel.php:28
+msgid "Carousel"
+msgstr ""
+
+#: core/edm-widgets/edm-carousel.php:50
+#: core/edm-widgets/edm-featured-posts.php:50
+msgid "Block Categories"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:28
+msgid "CTA"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:41
+msgid "Title"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:47
+msgid "CTA Heading"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:53
+msgid "Select background image"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:58
+msgid "Enable parallax"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:63
+msgid "Description"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:68
+msgid "Button Link"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:73
+msgid "Button Text"
+msgstr ""
+
+#: core/edm-widgets/edm-cta.php:79
+msgid "Open in new tab"
+msgstr ""
+
+#: core/edm-widgets/edm-default-tabbed.php:26
+msgid "A widget shows recent posts and comment in tabbed layout."
+msgstr ""
+
+#: core/edm-widgets/edm-default-tabbed.php:28
+msgid "Default Tabbed"
+msgstr ""
+
+#: core/edm-widgets/edm-default-tabbed.php:41
+msgid "Latest Tab title"
+msgstr ""
+
+#: core/edm-widgets/edm-default-tabbed.php:42
+#: core/edm-widgets/edm-default-tabbed.php:70
+msgid "Latest"
+msgstr ""
+
+#: core/edm-widgets/edm-default-tabbed.php:48
+msgid "Comments Tab title"
+msgstr ""
+
+#: core/edm-widgets/edm-default-tabbed.php:49
+#: core/edm-widgets/edm-default-tabbed.php:71
+msgid "Comments"
+msgstr ""
+
+#: core/edm-widgets/edm-default-tabbed.php:123
+msgid "&nbsp;commented on"
+msgstr ""
+
+#: core/edm-widgets/edm-featured-posts.php:26
+msgid "Displays featured posts from selected categories in different layouts."
+msgstr ""
+
+#: core/edm-widgets/edm-featured-posts.php:28
+msgid "Featured Posts"
+msgstr ""
+
+#: core/edm-widgets/edm-recent-posts.php:26
+msgid "A widget shows recent posts with thumbnail."
+msgstr ""
+
+#: core/edm-widgets/edm-recent-posts.php:28
+msgid "Recent Posts"
+msgstr ""
+
+#: core/edm-widgets/edm-recent-posts.php:41
+#: core/edm-widgets/edm-social-media.php:41
+msgid "Widget title"
+msgstr ""
+
+#: core/edm-widgets/edm-recent-posts.php:47
+msgid "No. of Posts"
+msgstr ""
+
+#: core/edm-widgets/edm-social-media.php:26
+msgid "A widget shows the social media icons."
+msgstr ""
+
+#: core/edm-widgets/edm-social-media.php:28
+msgid "Social Media"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-fields.php:227
+msgid "No image selected"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-fields.php:235
+msgid "Remove"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-fields.php:237
+msgid "Select Image"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:24
+msgid "Sidebar"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:26
+#: core/edm-widgets/edm-widget-functions.php:41
+#: core/edm-widgets/edm-widget-functions.php:56
+#: core/edm-widgets/edm-widget-functions.php:71
+#: core/edm-widgets/edm-widget-functions.php:86
+#: core/edm-widgets/edm-widget-functions.php:101
+msgid "Add widgets here."
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:54
+msgid "Top Home Area (Full Width)"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:69
+msgid "Middle Home Area"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:84
+msgid "Home Sidebar( Middle part ) "
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:99
+msgid "Bottom Home Area"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:114
+msgid "Footer %d"
+msgstr ""
+
+#: core/edm-widgets/edm-widget-functions.php:116
+msgid "Added widgets are display at Footer Widget Area."
+msgstr ""
+
+#: core/template-functions.php:288
+msgid "Select Category"
+msgstr ""
+
+#: core/template-tags.php:84
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: core/template-tags.php:112
+#. translators: 1: list of tags.
+msgid "Tagged %1$s"
+msgstr ""
+
+#: core/template-tags.php:120 template-parts/content-page.php:37
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+#: core/tgm-plugin-activation/tgmpa-education-master.php:48
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#: core/tgm-plugin-activation/tgmpa-education-master.php:49
+msgid "Install Plugins"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#: core/tgm-plugin-activation/tgmpa-education-master.php:51
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+#: core/tgm-plugin-activation/tgmpa-education-master.php:53
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: core/tgm-plugin-activation/tgmpa-education-master.php:54
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+#: core/tgm-plugin-activation/tgmpa-education-master.php:91
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+#: core/tgm-plugin-activation/tgmpa-education-master.php:96
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+#: core/tgm-plugin-activation/tgmpa-education-master.php:101
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+#: core/tgm-plugin-activation/tgmpa-education-master.php:107
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+#: core/tgm-plugin-activation/tgmpa-education-master.php:108
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#: core/tgm-plugin-activation/tgmpa-education-master.php:110
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: core/tgm-plugin-activation/tgmpa-education-master.php:112
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: core/tgm-plugin-activation/tgmpa-education-master.php:114
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: core/tgm-plugin-activation/tgmpa-education-master.php:115
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: core/tgm-plugin-activation/tgmpa-education-master.php:116
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: core/tgm-plugin-activation/tgmpa-education-master.php:117
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/tgm-plugin-activation/tgmpa-education-master.php:106
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:57
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer Menu"
+msgstr ""
+
+#: search.php:23
+#. translators: %s: search query.
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:27
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:40
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:44
+#: template-parts/content.php:46
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:33
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: comments.php:42
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/edm-functions/options.php:15
+msgctxt "alignment"
+msgid "None"
+msgstr ""
+
+#: core/edm-functions/options.php:16 core/edm-functions/options.php:39
+msgctxt "alignment"
+msgid "Left"
+msgstr ""
+
+#: core/edm-functions/options.php:17 core/edm-functions/options.php:40
+msgctxt "alignment"
+msgid "Center"
+msgstr ""
+
+#: core/edm-functions/options.php:18 core/edm-functions/options.php:41
+msgctxt "alignment"
+msgid "Right"
+msgstr ""
+
+#: core/edm-functions/options.php:62
+msgctxt "transition effect"
+msgid "fade"
+msgstr ""
+
+#: core/edm-functions/options.php:63
+msgctxt "transition effect"
+msgid "fadeout"
+msgstr ""
+
+#: core/edm-functions/options.php:64
+msgctxt "transition effect"
+msgid "none"
+msgstr ""
+
+#: core/edm-functions/options.php:65
+msgctxt "transition effect"
+msgid "scrollHorz"
+msgstr ""
+
+#: core/template-functions.php:137
+#. translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: core/template-functions.php:142
+#. translators: If there are characters in your language that are not supported
+#. by Signika, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Signika font: on or off"
+msgid "on"
+msgstr ""
+
+#: core/template-tags.php:32 core/template-tags.php:67
+#. translators: %s: post date.
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: core/template-tags.php:38 core/template-tags.php:73
+#. translators: %s: post author.
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#: core/template-tags.php:109
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

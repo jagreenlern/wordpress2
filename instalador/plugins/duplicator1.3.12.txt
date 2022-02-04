@@ -1,0 +1,1 @@
+Versión: 1.3.12 Última actualización: hace 3 días Instalaciones activas: +1 millón Versión de WordPress: 4.0 o superior Probado hasta: 5.1.1 Versión de PHP: 5.2.17 o superior Idiomas:Ver todos los 18 Etiquetas: backupmigratemigrationmoverestore

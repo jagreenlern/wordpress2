@@ -1,0 +1,1 @@
+Versión: 1.6.4 Última actualización: hace 5 meses Instalaciones activas: +2 millones Versión de WordPress: 3.1 o superior Probado hasta: 5.0.4 Versión de PHP: 5.2.4 o superior Idiomas:Ver todos los 17 Etiquetas: cachecachingperformanceWP CacheWP Super Cache

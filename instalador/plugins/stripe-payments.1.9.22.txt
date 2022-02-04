@@ -1,0 +1,1 @@
+Versión: 1.9.22 Última actualización: hace 5 días Instalaciones activas: 10.000+ Versión de WordPress: 4.7 o superior Probado hasta: 5.1.1 Versión de PHP: 5.4 o superior Idiomas:Ver todos los 3 Etiquetas: paymentpaymentsstripestripe gatewaystripe payments

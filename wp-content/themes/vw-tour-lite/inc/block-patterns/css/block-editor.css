@@ -1,0 +1,23 @@
+/*----- Banner Section -----*/
+.banner-section h1, .banner-section p, .banner-section .wp-block-button__link, .services-section h2, .services-section h3, .services-section p{
+  font-family: Montserrat;
+}
+.banner-section h1, .services-section h2, .services-section h3{
+  font-weight: bold;
+}
+.banner-section .wp-block-button__link{
+  padding: 15px 20px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.banner-section .wp-block-button__link:after{
+  content: "\f105";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-left: 8px;
+}
+.banner-section .wp-block-button__link:hover{
+  background: #1C3248 !important;
+  color: #fff !important;
+}

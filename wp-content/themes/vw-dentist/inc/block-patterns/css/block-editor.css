@@ -1,0 +1,82 @@
+.main-banner h1,.main-banner h4,.features-outer-box h2, .features-outer-box h3, .features-outer-box h5{
+  font-family: 'Oswald', sans-serif !important;
+  font-style: italic;
+}
+.main-banner .block-editor-rich-text__editable.wp-block-button__link, .features-outer-box .block-editor-rich-text__editable.wp-block-button__link{
+  font-family: 'Oswald', sans-serif !important;
+}
+.main-banner p, .features-outer-box p{ 
+  font-family: 'Roboto', sans-serif !important;
+}
+/*Banner section*/
+.main-banner .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  left: 10%;
+}
+.main-banner h4.block-editor-rich-text__editable.block-editor-block-list__block.wp-block {
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background-color: #13455e;
+  max-width: 100%;
+  width: max-content;
+  padding: 7px !important;
+}
+.main-banner h4.block-editor-rich-text__editable.block-editor-block-list__block.wp-block:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 39px solid #13455e;
+  border-right: 30px solid transparent;
+  position: absolute;
+  margin-top: -1px;
+  margin-left: 8.7em;
+  border-radius: 0px;
+}
+.main-banner .block-editor-rich-text__editable.wp-block-button__link {
+  font-family: "Oswald";
+}
+.main-banner .block-editor-rich-text__editable.wp-block-button__link:hover {
+  background: #07a7e3 !important;
+}
+/*Features section*/
+.features-outer-box h5.block-editor-rich-text__editable.block-editor-block-list__block.wp-block {
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background-color: #13455e;
+  max-width: 100%;
+  width: max-content;
+  padding: 10px !important;
+  margin: 0 auto !important;
+}
+.features-outer-box h5.block-editor-rich-text__editable.block-editor-block-list__block.wp-block:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 39px solid #13455e;
+  border-right: 26px solid transparent;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 8.9em;
+  border-radius: 0px;
+}
+.features-outer-box .block-editor-rich-text__editable.wp-block-button__link {
+  background-color: transparent;
+  padding: 0;
+  font-family: "Oswald";
+  font-weight: normal;
+  font-size: 15px;
+}
+.features-outer-box .block-editor-rich-text__editable.wp-block-button__link:hover {
+  background-color: transparent;
+  color: #32dac3 !important;
+}
+.features-outer-box .block-editor-rich-text__editable.wp-block-button__link:after {
+  content: "\f30b";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #07a7e3;
+  margin-left: 10px;
+  font-size: 18px;
+}

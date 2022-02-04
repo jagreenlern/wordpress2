@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("#corpobrand-ui-tabs").tabs()});

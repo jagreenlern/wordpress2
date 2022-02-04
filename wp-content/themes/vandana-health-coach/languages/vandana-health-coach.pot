@@ -1,0 +1,156 @@
+# <!=Copyright (C) 2020 Blossom Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Vandana Health Coach 1.0.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/theme/vandana-health-coach\n"
+"POT-Creation-Date: 2020-11-18 08:22:02+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:51
+msgid "Demo & Documentation"
+msgstr ""
+
+#: functions.php:64
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:66
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:84
+msgid "Appearance Settings"
+msgstr ""
+
+#: functions.php:85
+msgid "Customize Color, Typography & Background Image"
+msgstr ""
+
+#: functions.php:93
+msgid "Typography Settings"
+msgstr ""
+
+#: functions.php:113
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:114
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:135
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:136
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:158
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:159
+msgid "Change the font size of your site."
+msgstr ""
+
+#: functions.php:179 functions.php:199
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:200
+msgid "This is the layout for header."
+msgstr ""
+
+#: functions.php:223
+msgid "Phone"
+msgstr ""
+
+#: functions.php:241
+msgid "Email"
+msgstr ""
+
+#: functions.php:408
+msgid "Mobile"
+msgstr ""
+
+#: functions.php:566
+msgid " Vandana Health Coach | Developed By "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blossom Themes"
+msgstr ""
+
+#: functions.php:568
+msgid " Powered by %s. "
+msgstr ""
+
+#: functions.php:568
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: sections/service.php:8
+msgid "View All"
+msgstr ""
+
+#: sections/testimonial.php:8
+msgid "Testimonials"
+msgstr ""
+
+#: sections/testimonial.php:9
+msgid "Words of praise by my valuable clients."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Vandana Health Coach"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blossomthemes.com/wordpress-themes/vandana-health-coach/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Vandana Health Coach is an easy to use and mobile-friendly WordPress theme "
+"for coaches, mentors, speakers, leaders, and entrepreneurs. The theme has "
+"Banner with Newsletter to help you grow your email list and stay in touch "
+"with your readers. In addition, it also includes sections such as About, "
+"Services, Call-to-Action, Testimonials, and Contact section to elegantly "
+"showcase your services to your visitors and turn them into customers. "
+"Vandana Health Coach is SEO-friendly, speed optimized, translation ready, "
+"RTL ready, and WooCommerce compatible. Check demo at "
+"https://blossomthemes.com/theme-demo/?theme=vandana-health-coach, read the "
+"documentation at https://docs.blossomthemes.com/vandana-health-coach/, and "
+"get support at https://blossomthemes.com/support-ticket/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blossomthemes.com/"
+msgstr ""
+
+#: functions.php:442
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:443
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:444
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""

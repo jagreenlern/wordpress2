@@ -1,0 +1,1 @@
+Versión: 7.2.5 Última actualización: hace 3 semanas Instalaciones activas: +3 millones Versión de WordPress: 3.9 o superior Probado hasta: 5.2 Versión de PHP: 5.3 o superior Idioma:English (US) Etiquetas: antivirusfirewallmalware scannersecurityweb application firewal	

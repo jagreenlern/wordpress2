@@ -1,0 +1,15 @@
+Versión: 2.3 Última actualización: hace 1 año Instalaciones activas: 1.000+ Versión de WordPress: 1.5 o superior Probado hasta: 4.9.10 Idiomas:Ver todos los 2 Etiquetas: authenticationsecurity
+
+
+Detalles
+ 
+Valoraciones
+ 
+Instalación
+ 
+Soporte
+ 
+Desarrollo
+Descripción
+Este plugin permite a los desarrolladores integrar Latch en su servicio WordPress. Latch es un servicio que deja a usuarios finales añadir un nivel extra de seguridad a sus servicios y cuentas online.
+Con esta versión del plugin, los desarrolladores puede parear y desparear con sus estatus de latch. para más información, por favor visita https://latch.elevenpaths.com o la página del plugin en GitHub https://github.com/ElevenPaths/latch-plugin-wordpress

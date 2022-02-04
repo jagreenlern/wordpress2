@@ -1,0 +1,92 @@
+.main-banner, .features-outer-box{
+  width: auto;
+  height: auto;
+}
+figure.aligncenter.size-large.is-resized, .wp-block-buttons.aligncenter{
+  border: none !important;
+}
+/*Banner section*/
+.main-banner .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  left: 11%;
+}
+.main-banner h4 {
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background-color: #13455e;
+  max-width: 100%;
+  width: max-content;
+  padding: 10px !important;
+}
+.main-banner h4:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 39px solid #13455e;
+  border-right: 26px solid transparent;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.main-banner a.wp-block-button__link {
+  font-family: "Oswald";
+}
+.main-banner a.wp-block-button__link:hover {
+  background: #07a7e3 !important;
+}
+/*Features section*/
+.features-outer-box{
+  max-width: 1140px !important;
+  margin: 0 auto !important;
+}
+.features-outer-box h5 {
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background-color: #13455e;
+  max-width: 100%;
+  width: max-content;
+  padding: 10px !important;
+  margin: 0 auto !important;
+}
+.features-outer-box h5:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 39px solid #13455e;
+  border-right: 26px solid transparent;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.features-outer-box h3.has-text-align-center{
+  font-size: 20px !important;
+}
+.features-outer-box a.wp-block-button__link {
+  background-color: transparent;
+  padding: 0;
+  font-family: "Oswald";
+  font-weight: normal;
+  font-size: 15px;
+}
+.features-outer-box a.wp-block-button__link:hover {
+  background-color: transparent;
+  color: #32dac3 !important;
+}
+.features-outer-box a.wp-block-button__link:after {
+  content: "\f30b";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #07a7e3;
+  margin-left: 10px;
+  font-size: 18px;
+}
+@media screen and (max-width:767px) {
+  .wp-block-columns.alignwide{
+    margin: 0;
+  }
+  .main-banner .wp-block-column.is-vertically-aligned-center {
+    position: static;
+  }
+}

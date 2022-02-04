@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://es.wordpress.org/plugins/wpdatatables/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es-ES"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--
+<meta property="fb:page_id" content="6427302910" />
+-->
+<meta name="google-site-verification" content="7VWES_-rcHBcmaQis9mSYamPfNwE03f4vyTj4pfuAw0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>wpDataTables – Tables &amp; Table Charts – Plugin WordPress | WordPress.org Español</title>
+<meta name="referrer" content="always">
+
+
+<link rel="shortcut icon" href="https://s.w.org/favicon.ico?2" type="image/x-icon">
+<link rel="pingback" href="https://es.wordpress.org/plugins/xmlrpc.php">
+<script type="text/javascript" async="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/analytics.js.descarga"></script><script async="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/gtm.js.descarga"></script><script type="application/ld+json">
+[
+    {
+        "@context": "http://schema.org",
+        "@type": [
+            "SoftwareApplication",
+            "Product"
+        ],
+        "applicationCategory": "Plugin",
+        "operatingSystem": "WordPress",
+        "name": "wpDataTables &#8211; Tables &amp; Table Charts",
+        "url": "https://es.wordpress.org/plugins/wpdatatables/",
+        "description": "Create responsive, sortable tables &amp; charts from Excel, CSV &amp; PHP. Add tables &amp; charts to posts in minutes with DataTables.",
+        "softwareVersion": "2.1.6",
+        "fileFormat": "application/zip",
+        "downloadUrl": "https://downloads.wordpress.org/plugin/wpdatatables.2.1.6.zip",
+        "dateModified": "2020-12-28T06:49:03+00:00",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "worstRating": 1,
+            "bestRating": 5,
+            "ratingValue": 4.3,
+            "ratingCount": 145,
+            "reviewCount": 145
+        },
+        "interactionStatistic": {
+            "@type": "InteractionCounter",
+            "interactionType": "http://schema.org/DownloadAction",
+            "userInteractionCount": 267058
+        },
+        "image": [
+            "https://ps.w.org/wpdatatables/assets/icon-128x128.png?rev=2070743",
+            "https://ps.w.org/wpdatatables/assets/banner-772x250.png?rev=2419223"
+        ],
+        "offers": {
+            "@type": "Offer",
+            "url": "https://es.wordpress.org/plugins/wpdatatables/",
+            "price": "0.00",
+            "priceCurrency": "USD",
+            "seller": {
+                "@type": "Organization",
+                "name": "WordPress.org",
+                "url": "https://wordpress.org"
+            }
+        }
+    }
+]
+</script>
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link rel="dns-prefetch" href="https://v0.wordpress.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
+<link rel="alternate" href="https://wordpress.org/plugins/wpdatatables/" hreflang="en">
+<link rel="alternate" href="https://wordpress.org/plugins/wpdatatables/" hreflang="x-default">
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P24PF4B');</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/es.wordpress.org\/plugins\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7-alpha-49904"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/wp-emoji-release.min.js.descarga" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="dashicons-css" href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="admin-bar-css" href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/admin-bar.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-inline-css" type="text/css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="open-sans-css" href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/css" type="text/css" media="all">
+<link rel="stylesheet" id="wporg-style-css" href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/style.css" type="text/css" media="all">
+<link rel="https://api.w.org/" href="https://es.wordpress.org/plugins/wp-json/"><link rel="alternate" type="application/json" href="https://es.wordpress.org/plugins/wp-json/wp/v2/plugin/40399"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://es.wordpress.org/plugins/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://es.wordpress.org/plugins/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.7-alpha-49904">
+<link rel="shortlink" href="https://es.wordpress.org/plugins/?p=40399">
+<link rel="alternate" type="application/json+oembed" href="https://es.wordpress.org/plugins/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fes.wordpress.org%2Fplugins%2Fwpdatatables%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://es.wordpress.org/plugins/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fes.wordpress.org%2Fplugins%2Fwpdatatables%2F&amp;format=xml">
+<link rel="canonical" href="https://es.wordpress.org/plugins/wpdatatables/">
+	<style>
+		@media screen and (max-width: 782px) {
+			#wpadminbar li#wp-admin-bar-log-in,
+			#wpadminbar li#wp-admin-bar-register {
+				display: block;
+			}
+
+			#wpadminbar li#wp-admin-bar-log-in a,
+			#wpadminbar li#wp-admin-bar-register a {
+				padding: 0 8px;
+			}
+		}
+	</style>
+<meta property="og:title" content="wpDataTables – Tables &amp; Table Charts">
+<meta property="og:description" content="Create responsive, sortable tables &amp; charts from Excel, CSV &amp; PHP. Add tables &amp; charts to posts in minutes with DataTables.">
+<meta name="description" content="Create responsive, sortable tables &amp; charts from Excel, CSV &amp; PHP. Add tables &amp; charts to posts in minutes with DataTables.">
+<meta property="og:site_name" content="WordPress.org Español">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://es.wordpress.org/plugins/wpdatatables/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@WordPress">
+<meta property="og:image" content="https://ps.w.org/wpdatatables/assets/banner-772x250.png?rev=2419223">
+<meta name="thumbnail" content="https://ps.w.org/wpdatatables/assets/icon-128x128.png?rev=2070743">
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+	<script>document.cookie='devicePixelRatio='+((window.devicePixelRatio === undefined) ? 1 : window.devicePixelRatio)+'; path=/';</script>
+
+</head>
+
+
+<body id="wordpress-org" class="plugin-template-default single single-plugin postid-40399 admin-bar no-customize-support js">
+<script type="text/javascript">document.body.className = document.body.className.replace('no-js','js');</script>
+		<div id="wpadminbar" class="nojq">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barra de herramientas">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu"><li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="https://es.wordpress.org/about/"><span class="ab-icon"></span><span class="screen-reader-text">Acerca de WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu"><li id="wp-admin-bar-about"><a class="ab-item" href="https://es.wordpress.org/about/">Acerca de WordPress</a></li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu"><li id="wp-admin-bar-wporg"><a class="ab-item" href="https://es.wordpress.org/">WordPress.org</a></li><li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentación</a></li><li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://es.wordpress.org/support/">Soporte</a></li><li id="wp-admin-bar-feedback"><a class="ab-item" href="https://es.wordpress.org/support/forum/comunidad/peticiones-y-feedback/">Sugerencias</a></li></ul></div></li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu"><li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="https://es.wordpress.org/plugins/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150"><label for="adminbar-search" class="screen-reader-text">Buscar</label><input type="submit" class="adminbar-button" value="Buscar"></form></div></li><li id="wp-admin-bar-log-in"><a class="ab-item" href="https://login.wordpress.org/?locale=es_ES">Acceder</a></li><li id="wp-admin-bar-register"><a class="ab-item" href="https://login.wordpress.org/register?locale=es_ES">Registro</a></li></ul>			</div>
+					</div>
+
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P24PF4B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<div id="wporg-header">
+	<div class="wrapper">
+        <style type="text/css">
+                @media screen and (max-width:768px) { .survey-wrapper { margin-bottom:20px; } #wporg-header { height: 160px; } #mobile-menu-button { top: 95px; } }
+                .survey-wrapper { width: 100%; height: 0; }
+	.survey-div { font-family: 'Open Sans', Helvetica, Arial, 'Liberation Sans', sans-serif;  font-weight: 600;display: block; margin: 0 auto;  font-size: 13px; color: #fff;height: 22px;width: 320px;text-align:center !important;background-color: #D54E21; border-radius: 0 0 4px 4px; }
+                .survey-div a { color: #fff; font-weight: 500; text-shadow: 1px 1px 3px #666; }
+                @media screen and (max-width:360px) { .survey-div { width: 100%; } }
+        </style>
+        <div class="survey-wrapper">
+                <div class="survey-div">
+				<a href="https://wordpressdotorg.survey.fm/wordpress-2020-survey-spanish">¿Ya has respondido a la encuesta WordPress 2020?</a>
+                </div>
+		</div>
+	<a class="skip-link screen-reader-text" href="https://es.wordpress.org/plugins/wpdatatables/#main">Salta al contenido</a>	<h1><a href="https://es.wordpress.org/">WordPress.org</a></h1><h2 class="rosetta"><a href="https://es.wordpress.org/">Español</a></h2>				<div style="clear:both"></div>
+		<button id="mobile-menu-button" aria-expanded="false"><span class="screen-reader-text">Toggle Menu</span></button>
+		<ul id="wporg-header-menu" class="menu nav-menu"><li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="https://es.wordpress.org/themes/">Temas</a></li>
+<li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item menu-item-446"><a href="https://es.wordpress.org/plugins/">Plugins</a></li>
+<li id="menu-item-250" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-250"><a title="Foros de soporte en español" href="https://es.wordpress.org/support/">Soporte</a></li>
+<li id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a href="https://es.wordpress.org/colabora/">Colabora</a></li>
+<li id="menu-item-1001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1001"><a href="https://es.wordpress.org/team/">Equipo</a></li>
+<li id="menu-item-816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-816"><a href="https://es.wordpress.org/colabora/comunidad/meetups-en-activo/">Meetups</a></li>
+<li id="menu-item-2159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2159"><a href="https://es.wordpress.org/about/">Nosotros</a></li>
+<li id="menu-item-675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-675"><a href="https://es.wordpress.org/news/">Blog</a></li>
+<li id="menu-item--1" class="menu-item menu-item-type-post_type menu-item-object-page button button-primary download menu-item--1"><a href="https://es.wordpress.org/download/">Consigue WordPress</a></li>
+</ul>		<div style="clear:both"></div>
+	</div>
+</div>
+
+
+<div id="page" class="site">
+	<div id="content" class="site-content">
+		<header id="masthead" class="site-header " role="banner">
+			<div class="site-branding">
+									<p class="site-title"><a href="https://es.wordpress.org/plugins/" rel="home">Plugins</a></p>
+
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<button class="menu-toggle dashicons dashicons-arrow-down-alt2" aria-controls="primary-menu" aria-expanded="false" aria-label="Menú principal"></button>
+						<div id="primary-menu" class="menu">
+							<ul class=" nav-menu">
+																<li class="page_item"><a class="" href="https://es.wordpress.org/plugins/browse/favorites/">Mis favoritos</a></li>
+																<li class="page_item"><a class="" href="https://es.wordpress.org/plugins/browse/beta/">Pruebas beta</a></li>
+																<li class="page_item"><a class="" href="https://es.wordpress.org/plugins/developers/">Desarrolladores</a></li>
+																<li><form role="search" method="get" class="search-form" action="https://es.wordpress.org/plugins/">
+	<label for="s" class="screen-reader-text">Buscar por:</label>
+	<input type="search" id="s" class="search-field" placeholder="Buscar plugins" value="" name="s">
+		<button class="button button-primary button-search"><i class="dashicons dashicons-search"></i><span class="screen-reader-text">Buscar plugins</span></button>
+</form>
+</li>
+							</ul>
+						</div>
+					</nav><!-- #site-navigation -->
+							</div><!-- .site-branding -->
+		</header><!-- #masthead -->
+
+	<main id="main" class="site-main" role="main">
+
+		
+<article id="post-40399" class="post-40399 plugin type-plugin status-publish hentry plugin_contributors-wpdatatables plugin_committers-wpdatatables plugin_support_reps-wpdatatables plugin_tags-charts plugin_tags-data-tables plugin_tags-table plugin_tags-table-builder plugin_tags-tables">
+	<style type="text/css">#plugin-banner-wpdatatables { background-image: url('https://ps.w.org/wpdatatables/assets/banner-772x250.png?rev=2419223'); }</style><div class="plugin-banner" id="plugin-banner-wpdatatables"></div>
+	<header class="plugin-header">
+				
+		<div class="entry-thumbnail">
+			<img class="plugin-icon" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/icon-128x128.png">		</div>
+
+		<div class="plugin-actions">
+			
+							<a class="plugin-download button download-button button-large" href="https://downloads.wordpress.org/plugin/wpdatatables.2.1.6.zip">Descargar</a>
+					</div>
+
+				<h1 class="plugin-title">wpDataTables – Tables &amp; Table Charts</h1>
+		
+		<span class="byline">Por <span class="author vcard"><a class="url fn n" rel="nofollow" href="https://tms-outsource.com/">TMS-Plugins</a></span></span>
+	</header><div class="locale-banner" dir="auto">Este plugin aún no ha sido traducido a Español. <a href="https://translate.wordpress.org/projects/wp-plugins/wpdatatables">¡Ayuda a traducirlo!</a></div><!-- .entry-header -->
+
+	<span id="description"></span>
+	<span id="reviews"></span>
+	<span id="installation"></span>
+	<span id="developers"></span>
+	<span id="advanced" class=""></span>
+	<ul class="tabs clear">
+		<li id="tablink-description"><a href="https://es.wordpress.org/plugins/wpdatatables/#description">Detalles</a></li>
+		<li id="tablink-reviews"><a href="https://es.wordpress.org/plugins/wpdatatables/#reviews">Valoraciones</a></li>
+					<li id="tablink-installation">
+				<a href="https://es.wordpress.org/plugins/wpdatatables/#installation">Instalación</a>
+			</li>
+				<li id="tablink-support">
+			<a href="https://wordpress.org/support/plugin/wpdatatables/">Soporte</a>
+		</li>
+		<li id="tablink-developers"><a href="https://es.wordpress.org/plugins/wpdatatables/#developers">Desarrollo</a></li>
+			</ul>
+	<script type="text/javascript">if ( '#changelog' == window.location.hash ) { window.setTimeout( function() { window.location.hash = '#developers'; }, 10 ); }</script>
+
+	<div class="entry-content">
+		
+<div id="tab-description" class="plugin-description section">
+	<h2 id="description-header">Descripción</h2>
+	<p>wpDataTables is a popular WordPress table plugin used to <strong>quickly create tables &amp; table charts</strong> from Excel, CSV, PHP and other data sources. Use our WP table plugin to represent vast amounts of complicated data in concise, user-friendly way using tables or charts.</p>
+<p><strong>NEW!</strong>  New table builder is introduced in wpDataTables – <a href="https://wpdatatables.com/documentation/creating-new-wpdatatables-with-table-constructor/creating-a-simple-table-with-wpdatatables/" rel="nofollow ugc">creating simple tables from scratch</a>. These tables can be anything but simple, though, as you can now merge cells, style each cell differently, add star ratings to cells, and so much more.</p>
+<p>Here is the list of the new functionality in those simple tables:</p>
+<ul>
+<li>Merge cells</li>
+<li>Excel like editor</li>
+<li>Responsive mode</li>
+<li>Add/Remove columns and rows</li>
+<li>Resize/Reorder columns and rows</li>
+<li>Cell custom formatting</li>
+<li>Undo/Redo</li>
+<li>Add star rating</li>
+<li>Custom links</li>
+<li>Add media</li>
+<li>Custom HTML</li>
+<li>Shortcode in cells</li>
+</ul>
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" width="640" height="360" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/06QF0wNEf94.html" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></span>
+<ul>
+<li><strong>NEW!</strong> Simple table – <a href="https://wpdatatables.com/documentation/creating-new-wpdatatables-with-table-constructor/creating-a-simple-table-with-wpdatatables/" rel="nofollow ugc">Text documentation</a></li>
+<li>Excel – <a href="https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-excel/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>CSV – <a href="https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-csv/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>JSON – <a href="https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-json-input/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>XML – <a href="https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-xml/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>Serialized PHP array – <a href="https://wpdatatables.com/documentation/creating-wpdatatables/creating-wpdatatables-from-serialized-php-array/" rel="nofollow ugc">Text and video documentation</a></li>
+</ul>
+<p>wpDataTables allows creating 14 different chart types using the Google Charts rendering engine:</p>
+<ul>
+<li>Line Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-line-chart" rel="nofollow ugc">Live example</a></li>
+<li>Column Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-column-chart" rel="nofollow ugc">Live example</a></li>
+<li>Pie Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-pie-chart" rel="nofollow ugc">Live example</a></li>
+<li>Area Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-area-chart" rel="nofollow ugc">Live example</a></li>
+<li>Stepped area Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-stepped-area-chart" rel="nofollow ugc">Live example</a></li>
+<li>Histogram – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-histogram-chart" rel="nofollow ugc">Live example</a></li>
+<li>Bar Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-bar-chart" rel="nofollow ugc">Live example</a></li>
+<li>Stacked Bar Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-stacked-bar-chart" rel="nofollow ugc">Live example</a></li>
+<li>Bubble Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-bubble-chart" rel="nofollow ugc">Live example</a></li>
+<li>Donut Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-donut-chart" rel="nofollow ugc">Live example</a></li>
+<li>Gauge Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-gauge-chart" rel="nofollow ugc">Live example</a></li>
+<li>Scatter Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-scatter-chart" rel="nofollow ugc">Live example</a></li>
+<li>Candlestick Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-candlestick-chart" rel="nofollow ugc">Live example</a></li>
+<li>Waterfall Chart – <a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/#google-waterfall-chart" rel="nofollow ugc">Live example</a></li>
+</ul>
+<p>Creating tables and charts with a WordPress tables plugin has never been easier. It only takes 3 basic steps:</p>
+<p><strong>Step 1 – Provide table data</strong></p>
+<p>You can provide table data for WordPress tables by uploading Excel, CSV , JSON, XML or Serialized PHP array or you will create simple table from scratch with new table builder.</p>
+<p><strong>Step 2 – Customization</strong></p>
+<p>You can customize and configure the columns of your WordPress table (rename, reorder, add CSS classes, hide, change colors) and also you can customize and configure table Color and Font settings( Font, Header, Table border, Row , Cell and Pagination) in any way you see fit.</p>
+<p><strong>Step 3 – Publish in a post or page</strong></p>
+<p>Once you are happy with the design of your WordPress table, you can easily insert it on any post or page through Gutenberg, standard WP Editor and shortcode, or through page builders like WPBakery Page Builder, Visual Composer or Elementor. All tables will become sortable and will have pagination by default.</p>
+<p>Additionally, each table (except simple table) can have a search bar and can have the following functions: “Copy to Clipboard”, “Export to CSV”, “Export to PDF”, “Export to XLS”. All these functionalities are configurable and it is your decision whether to toggle these on or off.</p>
+<p>Following column data types are supported in data tables(tables created from Excel, CSV , JSON, XML or Serialized PHP array). Most column types, except the images, have their own sorting rules:</p>
+<ul>
+<li>String –  <a href="https://wpdatatables.com/documentation/column-features/string-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>Integer – <a href="https://wpdatatables.com/documentation/column-features/integer-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>Float –   <a href="https://wpdatatables.com/documentation/column-features/float-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>Date –    <a href="https://wpdatatables.com/documentation/column-features/date-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>DateTime – <a href="https://wpdatatables.com/documentation/column-features/datetime-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>Time –    <a href="https://wpdatatables.com/documentation/column-features/time-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>Image –   <a href="https://wpdatatables.com/documentation/column-features/image-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>URL link – <a href="https://wpdatatables.com/documentation/column-features/url-link-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+<li>E-mail link – <a href="https://wpdatatables.com/documentation/column-features/e-mail-link-columns/" rel="nofollow ugc">Text and video documentation</a></li>
+</ul>
+<p>Please note some limitations compared to the Premium version of the wpDataTables plugin:</p>
+<ol>
+<li>MySQL-query based tables support is not included.</li>
+<li>Creating tables from the Google Spreadsheet files is not included.</li>
+<li>Create a table manually is not included.</li>
+<li>Server-side processing is not included.</li>
+<li>Responsive mode for the tables is not included.</li>
+<li>Table filters are not included.</li>
+<li>Front-end table editing is not included.</li>
+<li>Excel-like editing is not included.</li>
+<li>Advanced HighCharts and Chart.js are not included</li>
+<li>Table Constructor Wizard (step-by-step table generator) is not included.</li>
+<li>Access to our premium support system is not included.</li>
+</ol>
+<p>You can get all of these features by purchasing the Premium version on <a href="https://wpdatatables.com/" rel="nofollow ugc">the plugin’s site</a>.</p>
+<p>Please note that wpDataTables requires PHP 5.6 or newer!</p>
+<p><strong>wpDataTables vs wpDataTables Premium</strong></p>
+<p>If you still can’t decide which wpDataTables version to choose, you should get familiar with the basic features of both of them, and then take it from there. It all boils down to the type of tables in WordPress that you want to create.</p>
+<p><strong>wpDataTables</strong></p>
+<p>If you don’t require the most advanced features because you only create a table in WordPress every now and then, wpDataTables is perfect for you.</p>
+<p><strong>wpDataTables Premium</strong></p>
+<p>While the basic version is great for people who create small and simple tables, wpDataTables Premium is the best WordPress table plugin and it comes with a huge set of amazing features.<br>
+However, the thing that really sets it apart is the possibility to manage any amount of data and create huge responsive tables in WordPress.</p>
+<p><strong>Do I Need wpDataTables?</strong></p>
+<p>Well, the short answer is – yes. If you want to create fully functional and great looking WordPress tables, you need wpDataTables. The number of the users currently taking advantage of this plugin is 30,000 and counting.<br>
+The major features of wpDataTables include but are not limited to:</p>
+<ul>
+<li>Building WordPress tables quickly and easily – no complicated configuration; just simple clicking;</li>
+<li>No coding knowledge required;</li>
+<li>Fully customizable WordPress tables and charts – from choosing the color palette to inserting elements such as your company logo, wpDataTables allows you to customize your tables and charts in any way you see fit;</li>
+<li>A WordPress table plugin that works like a spreadsheet app – with all the advanced features and tools, wpDataTables truly stands out from the competition;</li>
+<li>1 year of updates and support</li>
+</ul>
+<p>Additional useful features include:</p>
+<ul>
+<li><a href="https://wpdatatables.com/documentation/connect-wordpress-tables-with-google-sheets-api/" rel="nofollow ugc">NEW! Create Tables via Google Spreadsheet API</a> – Instant synchronization in wpDataTables after changes in Google sheets. Create tables from Private Google Spreadsheets.</li>
+<li><a href="https://wpdatatables.com/documentation/general/configuration/#separate-connection" rel="nofollow ugc">Multiple databases support</a> – wpDataTables is the only WordPress table plugin that can display the data from MySQL, MS SQL or PostgreSQL databases.</li>
+<li><a href="https://wpdatatables.com/documentation/table-features/responsiveness/" rel="nofollow ugc">Responsive Tables</a> – your WordPress tables will be 100% functional and they will look great on all screen and devices</li>
+<li><a href="https://wpdatatables.com/documentation/creating-wpdatatables/creating-mysql-based-wpdatatables-with-server-side-processing/" rel="nofollow ugc">Huge Amount of Data</a> – wpDataTables Premium can create huge tables in a matter of minutes. All the operations will be handled by the MySQL server.</li>
+<li><a href="https://wpdatatables.com/documentation/front-end-editing/creating-editable-tables/" rel="nofollow ugc">Editable Tables</a> – you or any other WordPress user with access will be able to edit and/or adjust the published tables at any point</li>
+<li><a href="https://wpdatatables.com/documentation/table-features/advanced-filtering/" rel="nofollow ugc">Advanced Filters and Search</a>– you will be able to create individual filters that will help you narrow the search results in the table quickly and easily. You can also configure a cascade filter with the <a href="https://wpdatatables.com/powerful-filtering/" rel="nofollow ugc">Powerful Filters addon</a>.</li>
+<li><a href="https://wpdatatables.com/documentation/table-features/conditional-formatting/" rel="nofollow ugc">Highlighting</a> – highlighting the rows, columns, cells of your WordPress tables etc. has never been easier with this plugin’s conditional formatting feature</li>
+<li><a href="https://wpdatatables.com/documentation/wpdatacharts/creating-charts-wordpress-wpdatachart-wizard/" rel="nofollow ugc">Charts</a> – you can easily turn every WordPress table into a beautiful chart. Charts are rendered by 3 powerful engines (<a href="https://wpdatatables.com/documentation/wpdatacharts/google-charts/" rel="nofollow ugc">Google</a>, <a href="https://wpdatatables.com/documentation/wpdatacharts/highcharts/" rel="nofollow ugc">Highcharts</a> and <a href="https://wpdatatables.com/documentation/wpdatacharts/chartjs/" rel="nofollow ugc">Chart.js</a>) and can change in real-time.</li>
+<li><a href="https://wpdatatables.com/documentation/table-features/calculation-functions/" rel="nofollow ugc">Calculating Tools</a> – calculating a sum, average, minimum and maximum of all the values for a given column is easier than ever with the wpDataTables advanced calculating tools</li>
+<li><a href="https://wpdatatables.com/documentation/table-features/using-placeholders/" rel="nofollow ugc">Placeholders</a> – make dynamic SQL Queries and use it through the shortcodes and as predefined values in filters and editing.</li>
+</ul></div>
+
+<div data-reactroot="" id="screenshots" class="plugin-screenshots"><h2>Capturas de pantalla</h2><section class="image-gallery"><div class="image-gallery-content"><span><button type="button" class="button-link image-gallery-left-nav"></button><button type="button" class="button-link image-gallery-right-nav"></button></span><div class="image-gallery-slides"><div class="image-gallery-slide center" style="transform: translate3d(0%, 0px, 0px); z-index: 3;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-1.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-1.png" alt=""></a><figcaption class="image-gallery-description">New simple editor</figcaption></figure></div><div class="image-gallery-slide right" style="transform: translate3d(100%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-2.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-2.png" alt=""></a><figcaption class="image-gallery-description">Merge cells and customization</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(200%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-3.gif"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-3.gif" alt=""></a><figcaption class="image-gallery-description">Reorder/resizing columns and rows</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(300%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-4.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-4.png" alt=""></a><figcaption class="image-gallery-description">Front-end data table preview.</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(400%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-5.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-5.png" alt=""></a><figcaption class="image-gallery-description">Back-end data table editor preview.</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(500%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-6.PNG"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-6.PNG" alt=""></a><figcaption class="image-gallery-description">Data Table preview from the back-end</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(600%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-7.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-7.png" alt=""></a><figcaption class="image-gallery-description">Table browser example</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(700%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-8.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-8.png" alt=""></a><figcaption class="image-gallery-description">General settings</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(800%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-9.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-9.png" alt=""></a><figcaption class="image-gallery-description">Column settings</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(900%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-10.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-10.png" alt=""></a><figcaption class="image-gallery-description">Plugin settings</figcaption></figure></div><div class="image-gallery-slide" style="transform: translate3d(1000%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-11.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-11.png" alt=""></a><figcaption class="image-gallery-description">Google charts</figcaption></figure></div><div class="image-gallery-slide left" style="transform: translate3d(-100%, 0px, 0px); z-index: 1;"><figure class="image-gallery-image"><a href="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-12.png"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-12.png" alt=""></a><figcaption class="image-gallery-description">Google chart settings</figcaption></figure></div></div></div><div class="image-gallery-thumbnails"><div class="image-gallery-thumbnails-container" style="transform: translate3d(0px, 0px, 0px);"><button type="button" class="button-link image-gallery-thumbnail active"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-1.png" alt="New simple editor"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-2.png" alt="Merge cells and customization"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-3.gif" alt="Reorder/resizing columns and rows"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-4.png" alt="Front-end data table preview."><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-5.png" alt="Back-end data table editor preview."><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-6.PNG" alt="Data Table preview from the back-end"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-7.png" alt="Table browser example"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-8.png" alt="General settings"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-9.png" alt="Column settings"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-10.png" alt="Plugin settings"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-11.png" alt="Google charts"><div class="image-gallery-thumbnail-label"></div></button><button type="button" class="button-link image-gallery-thumbnail"><img src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/screenshot-12.png" alt="Google chart settings"><div class="image-gallery-thumbnail-label"></div></button></div></div></section></div>
+
+<div id="blocks" class="plugin-blocks section">
+	<h2 id="blocks-header">Bloques</h2>
+
+	<p>Este plugin proporciona 2 bloques.</p>
+	<ul class="plugin-blocks-list">
+					<li class="plugin-blocks-list-item">
+									<span class="block-icon dashicons dashicons-block-default"></span>
+								<span class="block-title">wpDataTables - Tables &amp; Table Charts</span>
+							</li>
+					<li class="plugin-blocks-list-item">
+									<span class="block-icon dashicons dashicons-block-default"></span>
+								<span class="block-title">wpDataTables - Tables &amp; Table Charts</span>
+							</li>
+			</ul>
+</div>
+
+<div id="tab-installation" class="plugin-installation section">
+	<h2 id="installation-header">Instalación</h2>
+	<p>Installation of the plugin is really simple.</p>
+<ol>
+<li>Install using one of these options:
+<ul>
+<li>Install directly from WordPress Admin panel: go to Plugins -&gt; Add New -&gt; Search for «wpDataTables», and click the Install button.</li>
+<li>Download the ZIP manually from WordPress’ plugins repository, and upload it through WordPress Admin panel: go to Plugins -&gt; Add New -&gt; Upload Plugin, browse to the downloaded Zip and upload it.</li>
+<li>Download the ZIP, extract it and manually upload the extracted folder through FTP to the <code>/wp-content/plugins/</code> directory of your WordPress installation.</li>
+</ul>
+</li>
+<li>Activate the plugin through the ‘Plugins’ menu in WordPress.</li>
+<li>That’s it!</li>
+</ol></div>
+
+<div id="faq" class="plugin-faq section">
+	<h2 id="faq-header">FAQ</h2>
+	<dl>
+<dt id="#%0Ai%20added%20a%20table%20but%20see%20no%20sorting%2C%20filtering%20or%20pagination%0A"><h3><button formaction="#%0Ai%20added%20a%20table%20but%20see%20no%20sorting%2C%20filtering%20or%20pagination%0A">
+I added a table but see no sorting, filtering or pagination
+</button></h3></dt>
+<dd>
+<p>Usually this happens when PHP version is older than 5.4 is installed. Please first check this, and upgrade to PHP 5.4 or more, if that’s the issue.</p>
+</dd>
+<dt id="#%0Ahow%20to%20hide%20%E2%80%9Cshowing%20x%20of%20x%20entries%E2%80%9D%20in%20pagination%3F%0A"><h3><button formaction="#%0Ahow%20to%20hide%20%E2%80%9Cshowing%20x%20of%20x%20entries%E2%80%9D%20in%20pagination%3F%0A">
+How to hide “Showing X of X entries” in pagination?
+</button></h3></dt>
+<dd>
+<p>Go to display tab of the table settings block and disable the “Info block” setting.</p>
+</dd>
+<dt id="#%0Ahow%20to%20disable%2Fenable%20opening%20links%20in%20a%20popup%3F%0A"><h3><button formaction="#%0Ahow%20to%20disable%2Fenable%20opening%20links%20in%20a%20popup%3F%0A">
+How to disable/enable opening links in a popup?
+</button></h3></dt>
+<dd>
+<p>You can configure how the links will be opened by toggling the “URL target attribute” switch<br>
+In the Data tab of the Column Settings popup. It is up to you to define for each URL column if you prefer the link to open in a new or in the same tab.</p>
+</dd>
+<dt id="#%0Ahow%20to%20hide%20%E2%80%9Cshow%20x%20entries%E2%80%9D%20block%20from%20pagination%3F%0A"><h3><button formaction="#%0Ahow%20to%20hide%20%E2%80%9Cshow%20x%20entries%E2%80%9D%20block%20from%20pagination%3F%0A">
+How to hide “Show X entries” block from pagination?
+</button></h3></dt>
+<dd>
+<p>Go to display tab of the table settings block and disable the “Rows per page” setting.</p>
+</dd>
+<dt id="#%0Ahow%20to%20add%20symbols%20or%20text%20before%2Fafter%20cell%20values%20without%20affecting%20sorting%20(currency%2C%20percents%2C%20etc.)%0A"><h3><button formaction="#%0Ahow%20to%20add%20symbols%20or%20text%20before%2Fafter%20cell%20values%20without%20affecting%20sorting%20(currency%2C%20percents%2C%20etc.)%0A">
+How to add symbols or text before/after cell values without affecting sorting (currency, percents, etc.)
+</button></h3></dt>
+<dd>
+<p>For every table column in the column settings modal you can find text fields “Cell content prefix” and “Cell content suffix” in Display tab.<br>
+Values from those text fields will be appear before or/and after every cell content in a column.<br>
+This feature uses CSS for displaying the entered text, therefore sorting of the columns will not be affected.</p>
+</dd>
+<dt id="#%0Ahow%20to%20change%20the%20format%20of%20dates%3F%0A"><h3><button formaction="#%0Ahow%20to%20change%20the%20format%20of%20dates%3F%0A">
+How to change the format of dates?
+</button></h3></dt>
+<dd>
+<p>Date format can be changed in wpDataTables Settings page using the “Date format” drop-down menu.</p>
+</dd>
+<dt id="#%0Ahow%20to%20change%20thousand%20and%20decimal%20separators%20for%20number%20columns%3F%0A"><h3><button formaction="#%0Ahow%20to%20change%20thousand%20and%20decimal%20separators%20for%20number%20columns%3F%0A">
+How to change thousand and decimal separators for number columns?
+</button></h3></dt>
+<dd>
+<p>This can be changed from the “Number format” drop-down menu in the wpDataTables Settings page.</p>
+</dd>
+</dl></div>
+
+<div id="tab-reviews" class="plugin-reviews section">
+	<h2 id="reviews-header">Reseñas</h2>
+	<div class="plugin-reviews">
+							<article class="plugin-review">
+					<div class="review-avatar">
+						<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/656e009d3761f2b5db2ec9baf25a5146" srcset="https://secure.gravatar.com/avatar/656e009d3761f2b5db2ec9baf25a5146?s=120&amp;d=retro&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy">					</div><div class="review">
+						<header>
+							<div class="header-top">
+								<div class="wporg-ratings" aria-label="5 de 5 estrellas" data-title-template="%s de 5 estrellas" data-rating="5" style="color:#ffb900;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span></div>								<h3 class="review-title"><a class="url" href="https://wordpress.org/support/topic/flexible-powerful-table-plugin/">Flexible &amp; Powerful Table Plugin</a></h3>
+							</div>
+							<div class="header-bottom">
+								<span class="review-author author vcard"><a href="https://profiles.wordpress.org/ncusick/" title="Entradas de ncusick" rel="author">ncusick</a></span>
+								<span class="review-date">31 de diciembre de 2020</span>
+							</div>
+						</header>
+						<div class="review-content">With a website heavily reliant upon tables to present content, a powerful table tool was absolutely critical with our current website redesign. wpDataTables is by far the best plugin out there for tables.  You can easily / quickly create and manage tables whether it's creating one from scratch or importing one via some other method such as an Excel file.  Enabling table features is as quick as ticking a checkbox and their support team is very responsive.  If you're in need of a table plugin, this is the one.</div>
+					</div>
+				</article>
+							<article class="plugin-review">
+					<div class="review-avatar">
+						<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/449edf437bc75add56538e116d83c7f6" srcset="https://secure.gravatar.com/avatar/449edf437bc75add56538e116d83c7f6?s=120&amp;d=retro&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy">					</div><div class="review">
+						<header>
+							<div class="header-top">
+								<div class="wporg-ratings" aria-label="5 de 5 estrellas" data-title-template="%s de 5 estrellas" data-rating="5" style="color:#ffb900;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span></div>								<h3 class="review-title"><a class="url" href="https://wordpress.org/support/topic/excellent-plugin-and-great-support-90/">Excellent Plugin and Great Support!</a></h3>
+							</div>
+							<div class="header-bottom">
+								<span class="review-author author vcard"><a href="https://profiles.wordpress.org/tekv/" title="Entradas de tekv" rel="author">tekv</a></span>
+								<span class="review-date">28 de diciembre de 2020</span>
+							</div>
+						</header>
+						<div class="review-content">I don't do many reviews, but my experience with wpDataTables has been awesome; from using the plugin to interacting with customer service and their support team.  I was pretty amazed that even through the holiday season the support team replied quickly to my request. Turned out to be a user-error.  <img draggable="false" role="img" class="emoji" alt="🙂" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/1f642.svg"></div>
+					</div>
+				</article>
+							<article class="plugin-review">
+					<div class="review-avatar">
+						<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/28a989c39c16b157dff3477520a4f422" srcset="https://secure.gravatar.com/avatar/28a989c39c16b157dff3477520a4f422?s=120&amp;d=retro&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy">					</div><div class="review">
+						<header>
+							<div class="header-top">
+								<div class="wporg-ratings" aria-label="5 de 5 estrellas" data-title-template="%s de 5 estrellas" data-rating="5" style="color:#ffb900;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span></div>								<h3 class="review-title"><a class="url" href="https://wordpress.org/support/topic/very-powerful-and-versatile-plugin/">Very powerful and versatile plugin</a></h3>
+							</div>
+							<div class="header-bottom">
+								<span class="review-author author vcard"><a href="https://profiles.wordpress.org/mycamgirl/" title="Entradas de mycamgirl" rel="author">mycamgirl</a></span>
+								<span class="review-date">22 de diciembre de 2020</span>
+							</div>
+						</header>
+						<div class="review-content">I am impressed. I thought this would be a basic plugin, but it is a very powerful and versatile plugin that offers many tools and settings. And if you need a hand using the plugin, their support is ready to help. Very professional.</div>
+					</div>
+				</article>
+							<article class="plugin-review">
+					<div class="review-avatar">
+						<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/fb849fa4ab5b36abf0077351eb0afdd0" srcset="https://secure.gravatar.com/avatar/fb849fa4ab5b36abf0077351eb0afdd0?s=120&amp;d=retro&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy">					</div><div class="review">
+						<header>
+							<div class="header-top">
+								<div class="wporg-ratings" aria-label="1 de 5 estrellas" data-title-template="%s de 5 estrellas" data-rating="1" style="color:#ffb900;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-empty"></span><span class="dashicons dashicons-star-empty"></span><span class="dashicons dashicons-star-empty"></span><span class="dashicons dashicons-star-empty"></span></div>								<h3 class="review-title"><a class="url" href="https://wordpress.org/support/topic/caused-critical-error/">Caused critical error</a></h3>
+							</div>
+							<div class="header-bottom">
+								<span class="review-author author vcard"><a href="https://profiles.wordpress.org/diggerdogsausage/" title="Entradas de diggerdogsausage" rel="author">diggerdogsausage</a></span>
+								<span class="review-date">21 de diciembre de 2020</span>
+							</div>
+						</header>
+						<div class="review-content">This caused a critical error on my site, so had to remove it. Pity as it looks a nice plugin.</div>
+					</div>
+				</article>
+							<article class="plugin-review">
+					<div class="review-avatar">
+						<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/6f4fed6b1739d34da5f96b143df19ce5.jpeg" srcset="https://secure.gravatar.com/avatar/6f4fed6b1739d34da5f96b143df19ce5?s=120&amp;d=retro&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy">					</div><div class="review">
+						<header>
+							<div class="header-top">
+								<div class="wporg-ratings" aria-label="5 de 5 estrellas" data-title-template="%s de 5 estrellas" data-rating="5" style="color:#ffb900;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span></div>								<h3 class="review-title"><a class="url" href="https://wordpress.org/support/topic/very-useful-2516/">Very Useful</a></h3>
+							</div>
+							<div class="header-bottom">
+								<span class="review-author author vcard"><a href="https://profiles.wordpress.org/zihniates/" title="Entradas de zihniates" rel="author">zihniates</a></span>
+								<span class="review-date">15 de diciembre de 2020</span>
+							</div>
+						</header>
+						<div class="review-content">Easy to use plugin.</div>
+					</div>
+				</article>
+							<article class="plugin-review">
+					<div class="review-avatar">
+						<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/b35822d89e8364e6db088b907cd589e0.jpeg" srcset="https://secure.gravatar.com/avatar/b35822d89e8364e6db088b907cd589e0?s=120&amp;d=retro&amp;r=g 2x" class="avatar avatar-60 photo" height="60" width="60" loading="lazy">					</div><div class="review">
+						<header>
+							<div class="header-top">
+								<div class="wporg-ratings" aria-label="5 de 5 estrellas" data-title-template="%s de 5 estrellas" data-rating="5" style="color:#ffb900;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span></div>								<h3 class="review-title"><a class="url" href="https://wordpress.org/support/topic/great-plugin-great-support-1316/">Great Plugin Great Support</a></h3>
+							</div>
+							<div class="header-bottom">
+								<span class="review-author author vcard"><a href="https://profiles.wordpress.org/daisyrie/" title="Entradas de daisyrie" rel="author">daisyrie</a></span>
+								<span class="review-date">15 de diciembre de 2020</span>
+							</div>
+						</header>
+						<div class="review-content">It was easy to use. Customizable to our use case. And the support is great!</div>
+					</div>
+				</article>
+					</div>
+
+		<a class="reviews-link" href="https://wordpress.org/support/plugin/wpdatatables/reviews/">
+			Leer todas las 145 reseñas		</a></div>
+
+<div id="tab-developers" class="plugin-developers section">
+	<h2 id="developers-header">Colaboradores y desarrolladores</h2>
+	<div class="plugin-contributors"><p>«wpDataTables – Tables &amp; Table Charts» es un software de código abierto. Las siguientes personas han colaborado con este plugin.</p><span class="screen-reader-text">Colaboradores</span>
+		<ul id="contributors-list" class="contributors-list">
+						<li>
+				<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/c3bc43a8f83e9b22853a9bc03a6c0a56.png" srcset="https://secure.gravatar.com/avatar/c3bc43a8f83e9b22853a9bc03a6c0a56?s=64&amp;d=mm&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32" loading="lazy">				<a href="https://profiles.wordpress.org/wpdatatables/">
+					wpDataTables				</a>
+			</li>
+					</ul>
+
+		</div><div class="plugin-development"><p><a href="https://translate.wordpress.org/projects/wp-plugins/wpdatatables">Traduce «wpDataTables – Tables &amp; Table Charts» a tu idioma.</a></p><h3>¿Interesado en el desarrollo?</h3><p><a href="https://plugins.trac.wordpress.org/browser/wpdatatables/">Revisa el código</a> , echa un vistazo al <a href="https://plugins.svn.wordpress.org/wpdatatables/">repositorio SVN</a> o suscríbete al <a href="https://plugins.trac.wordpress.org/log/wpdatatables/">registro de desarrollo</a> por <a href="https://plugins.trac.wordpress.org/log/wpdatatables/?limit=100&amp;mode=stop_on_copy&amp;format=rss">RSS</a>.</p></div></div>
+
+<div id="tab-changelog" class="plugin-changelog section">
+	<h2 id="changelog-header">Registro de cambios</h2>
+	<h4>2.1.6</h4>
+<ul>
+<li>BugFix: Fixed issue with Fatal errors on Dashboard page if PHP extensions are not installed.</li>
+<li>Compatibility with WordPress 5.6 approved.</li>
+<li>Compatibility with PHP 8 approved.</li>
+<li>Other small bug fixes and stability improvements.</li>
+</ul>
+<h4>2.1.5</h4>
+<ul>
+<li>Improvement: Replaced PHPExcel library with PhpSpreadsheet library.</li>
+<li>BugFix: Fixed issue with deprecated errors.</li>
+<li>Notice: From this version required PHP version is 5.6 or newer!</li>
+<li>Other small bug fixes and stability improvements.</li>
+</ul>
+<h4>2.1.4</h4>
+<p>A major update with a couple of new features, bug fixes and stability improvements:<br>
+* Feature: Elementor integration – Added Elementor Blocks for tables and charts.<br>
+* Feature: New option to hide pagination for each table.<br>
+* Feature: New option to set pagination position for each table.(Right, center and left)<br>
+* Feature: New option to set pagination layout for each table.(Six different layouts)<br>
+* Feature: New option to set tables sorting order on browse pages.<br>
+* BugFix: Fixed issue for reset options Remove borders.<br>
+* BugFix: Fixed issue with showing tables in Internet Explorer browser.<br>
+* BugFix: Remove wpdt-c class from admin area on other admin pages<br>
+* BugFix: Correct folder name for Slovenian language.<br>
+* BugFix: Fixed issue with removing message modals in admin area<br>
+* BugFix: Fixed issue for simple tables with random sorting.<br>
+* Other small bug fixes and stability improvements.</p>
+<h4>2.1.3</h4>
+<ul>
+<li>Feature: New table type – Create a simple table with any data, merged cells, styling, star rating and a lot more.</li>
+<li>Feature: Added Slovenian translation</li>
+<li>Improvement: Update French translation</li>
+<li>Improvement: Added new color picker</li>
+<li>Other small bug fixes and stability improvements.</li>
+</ul>
+<h4>2.1.2</h4>
+<ul>
+<li>Fixed issue with the slow backend</li>
+<li>Fixed issue with loader after saving global plugin settings</li>
+<li>Bug fixes and stability improvements.</li>
+</ul>
+<h4>2.1.1</h4>
+<ul>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.5 approved.</li>
+</ul>
+<h4>2.1</h4>
+<ul>
+<li>Design: New fresh admin UI.</li>
+<li>New page: New Dashboard page with lots of useful information and guides.</li>
+<li>New page: New detailed System Info page which simplifies resolving external conflicts.</li>
+<li>Feature: New Popup First-launch Guide with feature explanations for new users.</li>
+<li>Feature: New options like Feature suggestion, Subscription and lot more.</li>
+<li>Feature: Now it is possible to create all Google charts.</li>
+<li>Feature: Chart Tooltips are enabled.</li>
+<li>Feature: Global Table Customization are available (Color And Font Settings)</li>
+<li>Notice: For next update of wpDataTables Lite it will be required 5.6 version of PHP, so the users who have still 5.4 have time to upgrade.</li>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.4.2 approved.</li>
+</ul>
+<h4>2.0.21</h4>
+<ul>
+<li>Bug fix: Issue with Gutenberg hooks</li>
+<li>Compatibility with WordPress 5.4.1 approved.</li>
+</ul>
+<h4>2.0.19</h4>
+<ul>
+<li>Bug fix: Issue with padding in container for Aqua skin in backend</li>
+<li>Bug fix: Issue with padding for ellipsis button in pagination</li>
+<li>Compatibility with WordPress 5.4 approved.</li>
+</ul>
+<h4>2.0.18</h4>
+<ul>
+<li>Added option for title on Print button</li>
+<li>Bug fix: Issue for enabling Apply button on input/paste URL input</li>
+<li>Bug fixes and stability improvements.</li>
+</ul>
+<h4>2.0.17</h4>
+<ul>
+<li>Updated Russian translation</li>
+<li>Bug fixes and stability improvements.</li>
+</ul>
+<h4>2.0.16</h4>
+<ul>
+<li>A minor update with a couple of small bugfixes:</li>
+<li>Bugfix: Fixed conflict with WooCommerce product page and Gutenberg</li>
+<li>Resolved minor security issue – added nonce on Settings page</li>
+<li>Compatibility with WordPress 5.3.2 approved.</li>
+</ul>
+<h4>2.0.15</h4>
+<ul>
+<li>A minor update with a couple of small bugfixes:</li>
+<li>BugFix: Plugin is now compatible with jQuery 3.x.</li>
+<li>BugFix: Fix PHP notices</li>
+<li>Compatibility with WordPress 5.3 approved.</li>
+</ul>
+<h4>2.0.14</h4>
+<ul>
+<li>Feature: Added new date formats</li>
+<li>Updated French translation</li>
+<li>Updated core of Datatables library</li>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.2.3 approved.</li>
+</ul>
+<h4>2.0.13</h4>
+<ul>
+<li>Feature: Removed limitation for number of rows in tables</li>
+<li>Feature: Added functionality for creating Google charts(Line, Column and Pie)</li>
+<li>Feature: Added options for customizing Google charts(Line, Column and Pie)</li>
+<li>Bug fixes and stability improvements.</li>
+</ul>
+<h4>2.0.12</h4>
+<ul>
+<li>Bug fixes and stability improvements.</li>
+</ul>
+<h4>2.0.11</h4>
+<ul>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.2.2 approved.</li>
+</ul>
+<h4>2.0.10</h4>
+<ul>
+<li>Bug fixes and stability improvements.</li>
+</ul>
+<h4>2.0.9</h4>
+<ul>
+<li>Feature: Added Gutenberg block – the plugin is now Gutenberg optimized.</li>
+<li>Feature: Added option to choose whether you want to keep the tables after deleting the plugin from the Plugins page (by default the tables will be saved in database after deleting the plugin).</li>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.2.1 approved.</li>
+</ul>
+<h4>2.0.8</h4>
+<ul>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.1.1 approved.</li>
+</ul>
+<h4>2.0.7</h4>
+<ul>
+<li>New skins and new UI elements – a new Dark and Purple-style skins for tables front-end, new UI elements;</li>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.1 approved.</li>
+</ul>
+<h4>2.0.6</h4>
+<ul>
+<li>New skin and new UI elements – a new Aqua-style skin for tables front-end, new UI elements;</li>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 5.0 approved.</li>
+</ul>
+<h4>2.0.5</h4>
+<ul>
+<li>Added more Date formats</li>
+<li>Bug fixes and stability improvements.</li>
+</ul>
+<h4>2.0.4</h4>
+<ul>
+<li>Added French language for translation</li>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 4.9.8 approved.</li>
+</ul>
+<h4>2.0.3</h4>
+<ul>
+<li>An option to choose CSV delimiter in the Settings page.</li>
+<li>Bug fixes and stability improvements.</li>
+<li>Compatibility with WordPress 4.9.7 approved.</li>
+</ul>
+<h4>2.0.2</h4>
+<ul>
+<li>The plugin’s design was re-worked from scratch to a more intuitive, smooth and user friendly interface following Material Design guidelines;</li>
+<li>New skin and new UI elements – a new Material-style skin for tables front-end, new UI elements;</li>
+<li>Feature: Checkbox for including Bootstrap on the front-end added on the Settings page;</li>
+<li>Feature: New settings for URL link columns – now it is possible e.g. to make them display as buttons, configure if the links should open in a new tab, or change the default text;</li>
+<li>Fix: removed “All” when table displays all of the entries, and if you have less entries than selected displayed length;</li>
+<li>Under-the-hood improvements</li>
+<li>Security and stability improvements;</li>
+<li>A number of other minor bugfixes;</li>
+<li>Compatibility with WordPress 4.9.1 approved.</li>
+</ul>
+<h4>1.2.3</h4>
+<ul>
+<li>Security issues fixed for deleting and loading wpDataTable.</li>
+</ul>
+<h4>1.2.2</h4>
+<ul>
+<li>Security issues fixed for all save actions.</li>
+</ul>
+<h4>1.2.1</h4>
+<ul>
+<li>Compatibility with WP 4.7 approved</li>
+<li>Problem with PHPExcel components resolved</li>
+</ul>
+<h4>1.2</h4>
+<ul>
+<li>DateTime column type added</li>
+<li>Time column type added</li>
+<li>Extended multisite support</li>
+<li>Improved Settings page</li>
+<li>Compatibility with WP 4.6.1 approved</li>
+<li>Numerous bugfixes</li>
+</ul>
+<h4>1.1</h4>
+<ul>
+<li>Migrated Table Tools to use HTML5 instead of Adobe Flash</li>
+<li>Advanced settings for configuring Table Tools (individually per button)</li>
+<li>Wide tables can be configured to be horizontally scrollable</li>
+<li>Upgraded used libraries</li>
+<li>Compatibility with WP 4.5.2 approved</li>
+<li>Numerous bugfixes</li>
+</ul>
+<h4>1.0</h4>
+<ul>
+<li>Initial version for wp.org</li>
+</ul></div>
+	</div><!-- .entry-content -->
+
+	<div class="entry-meta">
+		<div class="widget plugin-meta">
+		<h2 class="screen-reader-text">Meta</h2>
+
+		<ul>
+			
+			<li>
+				Versión: <strong>2.1.6</strong>			</li>
+
+			<li>
+				Última actualización: <strong>hace <span>5 días</span></strong>			</li>
+			<li>
+				Instalaciones activas: <strong>40.000+</strong>			</li>
+
+							<li>
+					Versión de WordPress:					<strong>
+						4.0 o superior					</strong>
+				</li>
+			
+							<li>
+					Probado hasta: <strong>5.6</strong>				</li>
+			
+							<li>
+					Versión de PHP:					<strong>
+						5.6 o superior					</strong>
+				</li>
+			
+							<li>
+					Idioma:<div class="languages"><a href="https://wordpress.org/plugins/wpdatatables/">English (US)</a></div>				</li>
+				
+			<li class="clear">Etiquetas: <div class="tags"><a href="https://es.wordpress.org/plugins/tags/charts/" rel="tag">charts</a><a href="https://es.wordpress.org/plugins/tags/data-tables/" rel="tag">data tables</a><a href="https://es.wordpress.org/plugins/tags/table/" rel="tag">table</a><a href="https://es.wordpress.org/plugins/tags/table-builder/" rel="tag">Table Builder</a><a href="https://es.wordpress.org/plugins/tags/tables/" rel="tag">tables</a></div></li>
+							<li class="hide-if-no-js">
+					<strong><a class="plugin-admin" href="https://es.wordpress.org/plugins/wpdatatables/advanced/">Vista avanzada</a></strong>				</li>
+					</ul>
+
+		</div><div class="widget plugin-ratings"><h2 class="widget-title">Valoraciones</h2>			<a class="reviews-link" href="https://wordpress.org/support/plugin/wpdatatables/reviews/">Ver todas</a>
+
+			<div class="rating">
+				<div class="wporg-ratings" aria-label="4.5 de 5 estrellas" data-title-template="%s de 5 estrellas" data-rating="4.5" style="color:#ffb900;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-half"></span></div>			</div>
+
+			<ul class="ratings-list">
+									<li class="counter-container">
+						<a href="https://wordpress.org/support/plugin/wpdatatables/reviews/?filter=5">
+							<span class="counter-label">5 estrellas</span>
+					<span class="counter-back">
+						<span class="counter-bar" style="width: 77.241379310345%;"></span>
+					</span>
+							<span class="counter-count">112</span>
+						</a>
+					</li>
+									<li class="counter-container">
+						<a href="https://wordpress.org/support/plugin/wpdatatables/reviews/?filter=4">
+							<span class="counter-label">4 estrellas</span>
+					<span class="counter-back">
+						<span class="counter-bar" style="width: 2.7586206896552%;"></span>
+					</span>
+							<span class="counter-count">4</span>
+						</a>
+					</li>
+									<li class="counter-container">
+						<a href="https://wordpress.org/support/plugin/wpdatatables/reviews/?filter=3">
+							<span class="counter-label">3 estrellas</span>
+					<span class="counter-back">
+						<span class="counter-bar" style="width: 3.448275862069%;"></span>
+					</span>
+							<span class="counter-count">5</span>
+						</a>
+					</li>
+									<li class="counter-container">
+						<a href="https://wordpress.org/support/plugin/wpdatatables/reviews/?filter=2">
+							<span class="counter-label">2 estrellas</span>
+					<span class="counter-back">
+						<span class="counter-bar" style="width: 3.448275862069%;"></span>
+					</span>
+							<span class="counter-count">5</span>
+						</a>
+					</li>
+									<li class="counter-container">
+						<a href="https://wordpress.org/support/plugin/wpdatatables/reviews/?filter=1">
+							<span class="counter-label">1 estrella</span>
+					<span class="counter-back">
+						<span class="counter-bar" style="width: 13.103448275862%;"></span>
+					</span>
+							<span class="counter-count">19</span>
+						</a>
+					</li>
+							</ul>
+
+		
+					<div class="user-rating">
+				<a href="https://login.wordpress.org/?redirect_to=https%3A%2F%2Fwordpress.org%2Fsupport%2Fplugin%2Fwpdatatables%2Freviews%2F%23new-post&amp;locale=es_ES" rel="nofollow" title="Acceder a WordPress.org">Accede para enviar una reseña.</a>
+			</div>
+		</div><div id="plugin-contributors" class="widget plugin-contributors"><h2 class="widget-title">Colaboradores</h2>
+		<ul id="contributors-list" class="contributors-list">
+						<li>
+				<img alt="" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/c3bc43a8f83e9b22853a9bc03a6c0a56.png" srcset="https://secure.gravatar.com/avatar/c3bc43a8f83e9b22853a9bc03a6c0a56?s=64&amp;d=mm&amp;r=g 2x" class="avatar avatar-32 photo" height="32" width="32" loading="lazy">				<a href="https://profiles.wordpress.org/wpdatatables/">
+					wpDataTables				</a>
+			</li>
+					</ul>
+
+		</div><div class="widget plugin-support"><h2 class="widget-title">Soporte</h2>			<p class="aside">Problemas resueltos en los últimos dos meses:</p>
+			<p class="counter-container">
+				<span class="counter-back">
+					<span class="counter-bar" style="width: 85.714285714286%;"></span>
+				</span>
+				<span class="counter-count">
+					30 de 35				</span>
+			</p>
+
+		
+		<p>
+			<a class="button" href="https://wordpress.org/support/plugin/wpdatatables/">Ver el foro de soporte</a>
+		</p>
+
+		</div>	</div><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+	</main><!-- #main -->
+
+
+	</div><!-- #content -->
+</div><!-- #page -->
+
+<div id="wporg-footer">
+	<div class="wrapper">
+		<ul>
+			<li><a href="https://es.wordpress.org/about/" title="Una introducción al proyecto WordPress">Acerca de</a></li>
+			<li><a href="https://es.wordpress.org/news/" title="Noticias y actualizaciones">Blog</a></li>
+			<li><a href="https://wordpress.org/hosting/" title="Proveedores de alojamiento web recomendados">Alojamiento</a></li>
+			<li><a href="https://wordpressfoundation.org/donate/" title="Dona a la Fundación WordPress">Donar</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://es.wordpress.org/support/" title="Foros, documentación y otros recursos">Soporte</a></li>
+			<li><a href="https://developer.wordpress.org/" title="Recursos para desarrolladores WordPress">Desarrolladores</a></li>
+			<li><a href="https://make.wordpress.org/" title="Devuelve algo a WordPress ya sea código, soporte, traducciones y más">Involúcrate</a></li>
+			<li><a href="https://learn.wordpress.org/" title="Talleres y materiales de entrenamiento">Aprende</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://wordpress.org/showcase/" title="Algunos de los mejores sitios WordPress de la web">Escaparate</a></li>
+			<li><a href="https://es.wordpress.org/plugins/" title="Añade funcionalidades adicionales a WordPress">Plugins</a></li>
+			<li><a href="https://es.wordpress.org/themes/" title="Mejora el aspecto de WordPress">Temas</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://central.wordcamp.org/" title="Encuentra un evento WordPress cerca de ti">WordCamp</a></li>
+			<li><a href="https://wordpress.tv/" title="Vídeos, tutoriales y sesiones WordCamp">WordPress.TV</a></li>
+			<li><a href="https://buddypress.org/" title="Un conjunto de plugins que transforman tu WordPress en una red social">BuddyPress</a></li>
+			<li><a href="https://bbpress.org/" title="Foros rápidos y ligeros creados con WordPress">bbPress</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://wordpress.com/?ref=wporg-footer" title="Alojamiento WordPress sin problemas">WordPress.com</a></li>
+			<li><a href="https://ma.tt/" title="Cofundador de WordPress, un ejemplo de lo que WordPress puede hacer">Matt</a></li>
+			<li><a href="https://es.wordpress.org/about/privacy/" title="Política de privacidad de WordPress.org">Privacidad</a></li>
+			<li><a href="https://publiccode.eu/" target="_blank">Public Code</a></li>
+		</ul>
+
+		<ul>
+			<li><span class="dashicons dashicons-twitter"></span><a href="https://twitter.com/WordPress" title="Sigue a @WordPress en Twitter">@WordPress</a></li>
+			<li><span class="dashicons dashicons-facebook"></span><a href="https://www.facebook.com/WordPress/" title="Me gusta a WordPress en Facebook">WordPress</a></li>
+		</ul>
+	</div>
+
+		<p class="cip">El código es poesía.</p>
+</div>
+
+<script src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/navigation.min.js.descarga"></script>
+
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/hoverintent-js.min.js.descarga" id="hoverintent-js-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/admin-bar.min.js.descarga" id="admin-bar-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/navigation.js.descarga" id="wporg-navigation-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/skip-link-focus-fix.js.descarga" id="wporg-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/jquery.min.js.descarga" id="jquery-core-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/jquery-migrate.min.js.descarga" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/popover.js.descarga" id="wporg-plugins-popover-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/section-faq.js.descarga" id="wporg-plugins-faq-js"></script>
+<script type="text/javascript" id="wporg-plugins-locale-banner-js-extra">
+/* <![CDATA[ */
+var wporgLocaleBanner = {"apiURL":"https:\/\/es.wordpress.org\/plugins\/wp-json\/plugins\/v1\/locale-banner","currentPlugin":"wpdatatables"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/locale-banner.js.descarga" id="wporg-plugins-locale-banner-js"></script>
+<script type="text/javascript" id="wporg-plugins-client-js-extra">
+/* <![CDATA[ */
+var pluginDirectory = {"endpoint":"https:\/\/es.wordpress.org\/plugins\/wp-json","nonce":"d1c11bf44b","base":"\/plugins\/","userId":"0"};
+var localeData = {"":{"Plural-Forms":"nplurals=2; plural=n != 1;","Language":"es_ES","localeSlug":"es_ES"},"screenshots":"Capturas de pantalla"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/theme.js.descarga" id="wporg-plugins-client-js"></script>
+<script type="text/javascript" src="./wpDataTables – Tables &amp; Table Charts – Plugin WordPress _ WordPress.org Español_files/wp-embed.min.js.descarga" id="wp-embed-js"></script>
+
+
+</body></html>

@@ -1,0 +1,41 @@
+
+Descripción
+Gallery Custom Links te permite enlazar imágenes de galerías a una URL específica. Probado con WordPress Gallery, Gutenberg, Meow Gallery y otros. Página oficial: Gallery Custom Links.
+
+USO
+Two fields are added to your images, in your Media Library: Link URL and Link Target. If, at least, the Link URL is set up, this image will link to that URL every time it is used within a gallery. Lightbox will be automatically disabled for those images.
+
+COMPATIBILIDAD
+It currently works with the native WP Gallery, the Gutenberg Gallery, and the Meow Gallery. It should actually work with any gallery plugin using the ‘gallery’ class and Responsive Images (src-set). Let me know if you would like more galleries to be supported, it should be easy.
+
+FILTROS
+Puedes optimizar (ejecutar el plugin solo en las páginas donde lo necesites) y hacer compatibles más galerías (por medio de clases CSS) fácilmente mediante el uso de filtros. Para saber más sobre esto, visita la página oficial, aquí: Galería de enlaces personalizados .
+
+GRACIAS
+The motivation to build this plugin came from my users who had issues trying to use WP Gallery Custom Links. I realized that this plugin was working extremely well with the standard gallery, but would require too much rewriting for Gutenberg and other galleries, hence the creation of this plugin. I hope it will help.
+
+Idiomas: Inglés, español.
+
+Capturas de pantalla
+Colaboradores y desarrolladores
+«Gallery Custom Links» es un software de código abierto. Las siguientes personas han colaborado con este plugin.
+
+Colaboradores
+Jordy Meow
+Meta
+Versión:2.0.3 Última actualización:hace 3 semanas Instalaciones activas:40.000+ Versión de WordPress:5.0 o superior Probado hasta:5.6.2 Versión de PHP:7.0 o superior Idiomas:Ver todos los 3 Etiquetas:customgallerygutenberglinks Vista avanzada
+Valoraciones
+Ver todas
+5 estrellas 
+ 113
+4 estrellas 
+ 5
+3 estrellas 
+ 0
+2 estrellas 
+ 2
+1 estrella 
+ 5
+Accede para enviar una reseña.
+Soporte
+Problemas resueltos en los últimos dos meses:

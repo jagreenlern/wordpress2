@@ -1,0 +1,1008 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Eduline\n"
+"POT-Creation-Date: 2019-11-17 18:08+0545\n"
+"PO-Revision-Date: 2019-11-17 18:08+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "404 Page Not Found"
+msgstr ""
+
+#: 404.php:23
+msgid "Go Back Home"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:78
+msgid "&copy; All Right Reserved "
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:48
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:49
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:110
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:112 functions.php:122 functions.php:133 functions.php:143
+#: functions.php:153
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:120
+msgid "Footer widget 1"
+msgstr ""
+
+#: functions.php:131
+msgid "Footer widget 2"
+msgstr ""
+
+#: functions.php:141
+msgid "Footer widget 3"
+msgstr ""
+
+#: functions.php:151
+msgid "Footer widget 4"
+msgstr ""
+
+#: header-parts/header-menu.php:34
+msgid "Add a menu"
+msgstr ""
+
+#: inc/breadcrumbs.php:234
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs.php:235
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs.php:236
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:237
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:238
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:240
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumbs.php:242
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:244
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:246
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:698
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs.php:715
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs.php:732
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs.php:748 inc/breadcrumbs.php:777 inc/breadcrumbs.php:804
+#: inc/breadcrumbs.php:831 inc/breadcrumbs.php:1172
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs.php:749 inc/breadcrumbs.php:805 inc/breadcrumbs.php:1176
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs.php:750 inc/breadcrumbs.php:1180
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs.php:778
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:13
+#: inc/customizer/frontpage-panel.php:76 sections/section-banner.php:2
+msgid "Accelerate your future"
+msgstr ""
+
+#: inc/customizer/customizer.php:39
+msgid "Go Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:40
+msgid "Buy Eduline Pro"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:26
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:44
+msgid "Footer Social Media Section"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:45
+msgid "Managed the content display at Footer Social media section."
+msgstr ""
+
+#: inc/customizer/footer-panel.php:62 inc/customizer/footer-panel.php:103
+#: inc/customizer/page-panel.php:192
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:63
+msgid "Enable/Disable social links in Footer."
+msgstr ""
+
+#: inc/customizer/footer-panel.php:107 inc/customizer/frontpage-panel.php:238
+#: inc/customizer/frontpage-panel.php:349 inc/customizer/header-panel.php:128
+#: inc/customizer/page-panel.php:196
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:108 inc/customizer/frontpage-panel.php:350
+#: inc/customizer/page-panel.php:197
+msgid "Example: fa-facebook"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:112 inc/customizer/page-panel.php:201
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:113 inc/customizer/page-panel.php:202
+msgid "Example: http://facebook.com"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:118 inc/customizer/page-panel.php:207
+msgid "social"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:25
+msgid "Frontpage Settings"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:43
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:44
+msgid "Managed the Banner display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:65
+msgid "Enable/Disable for  Banner"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:85
+msgid "Popular Courses Text"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:104
+msgid "Select Page for Banner title with featured image"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:118
+msgid "Sub Title For Banner"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:119
+msgid "Collection"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:132
+msgid "Button Title For Banner"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:133 sections/section-courses.php:46
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:146
+msgid "URL For button Title of banner"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:147
+#: inc/customizer/frontpage-panel.php:884
+#: inc/customizer/frontpage-panel.php:1057
+msgid "#"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:168
+msgid "Counter Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:169
+msgid "Managed the content display at Counter section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:190
+msgid "Enable/Disable for Counter"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:234
+msgid "Counter items"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:242
+msgid "Counter Number"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:246
+msgid "Counter Title"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:251
+msgid "counter"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:273
+msgid "Service Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:274
+msgid "Managed the Service display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:286
+msgid "Enable/Disable Service section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:301
+msgid "Select Page for  Service Page title & description with Featured Image"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:345
+msgid "Service items"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:354
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:358
+msgid "Description"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:363
+msgid "service"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:384
+msgid "Course Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:385
+msgid "Managed the Course display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:406
+msgid "Enable/Disable for  Courses"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:420
+msgid "Select Page for Course title and description"
+msgstr ""
+
+#. translators: %s: Banner Number.
+#: inc/customizer/frontpage-panel.php:439
+#, php-format
+msgid "Select Page for Course %s title with featured image"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:461
+msgid "Registration Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:462
+msgid "Managed the  Registration display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:483
+msgid "Enable/Disable for Registration"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:496
+msgid "Select Page for Registration Title and Description"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:510
+msgid "News Letter Section Use Shortcode"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer/frontpage-panel.php:512
+#, php-format
+msgid "Use Newsletter Plugins shortcode: Eg: %1$s. %2$s See more here %3$s"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:530
+msgid "Team Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:531
+msgid "Managed the  Team display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:552
+msgid "Enable/Disable for Team"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:565
+msgid "Select Page for Team Title & Description"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer/frontpage-panel.php:583
+#, php-format
+msgid "Select Team Page %s with Featured Image"
+msgstr ""
+
+#. translators: %s: label
+#: inc/customizer/frontpage-panel.php:597
+msgid "Enter Age - Designation"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:598
+msgid "28 years old - Marketing Teacher"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:618
+msgid "Testimonials Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:619
+msgid "Managed the  Testimonials display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:640
+msgid "Enable/Disable for Testimonials"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:654
+msgid ""
+"Select Page for Testimonials Title, Featured Image and vedio link in "
+"description"
+msgstr ""
+
+#. translators: %s: Label
+#: inc/customizer/frontpage-panel.php:674
+#, php-format
+msgid "Select Testimonial Page %s"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer/frontpage-panel.php:689
+#, php-format
+msgid "Select Designation or Company Name %s"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:690
+msgid "Position like Developer, CEO MD"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:711
+msgid "Events Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:712
+msgid "Managed the  Events display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:733
+msgid "Enable/Disable for Events"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:747
+msgid "Select Page for Events title & Description"
+msgstr ""
+
+#. translators: %s: Label
+#: inc/customizer/frontpage-panel.php:765
+#, php-format
+msgid "Select Event Page %s for title and description with Featured Image"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer/frontpage-panel.php:780
+#, php-format
+msgid "Enter event start date to End Date %s"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:781
+msgid "18:00 - friday june 1, 2018 to 10:00 - monday june 4, 2018"
+msgstr ""
+
+#. translators: %s: Description
+#: inc/customizer/frontpage-panel.php:796
+#, php-format
+msgid "Enter event Address %s"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:797
+msgid "754 5th ave new york, ny 10019"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:820
+msgid "Become Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:821
+msgid "Managed the  Become A Teacher display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:842
+msgid "Enable/Disable for Become A Teacher"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:855
+msgid "Select Page for Become A Teacher title & Description"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:869
+msgid "Button Title For Become A Teacher"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:870
+#: inc/customizer/frontpage-panel.php:1043
+msgid "Get Started"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:883
+msgid "Type URL For button Title of Become A Teacher"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:905
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:906
+msgid "Managed the  Blog display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:927
+msgid "Enable/Disable for Blog"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:941
+msgid "Select Page for Blog title & Description"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:958
+msgid "Select Category for Blog"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:972
+msgid "Number of Recent Blogs to Show in Front Page"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:973
+msgid "input 3,4,5,6,7,8,9,10"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:993
+msgid "Call to Action Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:994
+msgid "Managed the  Call to Action display at Frontpage section."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:1015
+msgid "Enable/Disable for Call to Action"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:1028
+msgid "Select Page for Call to Action title & Description"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:1042
+msgid "Button Title For Call to Action"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:1056
+msgid "Type URL For button Title of Call to Action"
+msgstr ""
+
+#: inc/customizer/general-panel.php:31
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/header-panel.php:15
+msgid "Header Image"
+msgstr ""
+
+#: inc/customizer/header-panel.php:29
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/header-panel.php:46
+msgid "Top Header Section"
+msgstr ""
+
+#: inc/customizer/header-panel.php:47
+msgid "Managed the content display at top header section."
+msgstr ""
+
+#: inc/customizer/header-panel.php:69 inc/customizer/header-panel.php:92
+msgid "Enable/Disable top header"
+msgstr ""
+
+#: inc/customizer/header-panel.php:124
+msgid "Top Header Contact items"
+msgstr ""
+
+#: inc/customizer/header-panel.php:132
+msgid "Location Title"
+msgstr ""
+
+#: inc/customizer/header-panel.php:137
+msgid "contact"
+msgstr ""
+
+#: inc/customizer/page-panel.php:26
+msgid "Page Template Settings"
+msgstr ""
+
+#: inc/customizer/page-panel.php:43
+msgid "Contact Page"
+msgstr ""
+
+#: inc/customizer/page-panel.php:44
+msgid "Managed the content display at contact page."
+msgstr ""
+
+#: inc/customizer/page-panel.php:57
+msgid "Select Page for Contact Page  title and description"
+msgstr ""
+
+#: inc/customizer/page-panel.php:72 inc/customizer/page-panel.php:87
+msgid "Type Contact Page Quotes"
+msgstr ""
+
+#: inc/customizer/page-panel.php:73
+msgid ""
+"Eg:-\"Build your Bright Future at Edugrade, Get in Touch, minim veniam,We "
+"would love to help you! "
+msgstr ""
+
+#: inc/customizer/page-panel.php:88
+msgid "Eg:- Get In Touch"
+msgstr ""
+
+#: inc/customizer/page-panel.php:102
+msgid "Type Main Address"
+msgstr ""
+
+#: inc/customizer/page-panel.php:103
+msgid "Eg:-  Street # 75, Borne Block, 5th Avenue, West Road, NY."
+msgstr ""
+
+#: inc/customizer/page-panel.php:117
+msgid "Type Phone Number"
+msgstr ""
+
+#: inc/customizer/page-panel.php:118
+msgid "Eg:-  (800) 457 392"
+msgstr ""
+
+#: inc/customizer/page-panel.php:132
+msgid "Type Email Address"
+msgstr ""
+
+#: inc/customizer/page-panel.php:133
+msgid "Eg:-  info.demo@email.com"
+msgstr ""
+
+#: inc/customizer/page-panel.php:149
+msgid "Contact Form Section Use Shortcode"
+msgstr ""
+
+#: inc/customizer/page-panel.php:150
+msgid "eg [contact-form-7 id=\"108\" title=\"Contact form 1\"]"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:74
+msgid "row"
+msgstr ""
+
+#. translators: %s: Add new Text.
+#: inc/repeater/class-control-repeater.php:83
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#. translators: %s: Limit Number.
+#: inc/repeater/class-control-repeater.php:239
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:371
+msgid "Hex Value"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:396
+#: inc/repeater/class-control-repeater.php:401
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:406
+#: inc/repeater/class-control-repeater.php:471
+msgid "Remove"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:407
+#: inc/repeater/class-control-repeater.php:411
+msgid "Add Image"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:407
+#: inc/repeater/class-control-repeater.php:409
+msgid "Change Image"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:432
+#: inc/repeater/class-control-repeater.php:437
+msgid "No File Selected"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:443
+#: inc/repeater/class-control-repeater.php:447
+msgid "Add File"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:443
+#: inc/repeater/class-control-repeater.php:445
+msgid "Change File"
+msgstr ""
+
+#: inc/template-functions.php:65
+msgid "k+"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/theme-info/about.php:9 inc/theme-info/about.php:10
+msgid "Eduline Setup"
+msgstr ""
+
+#. translators: theme version
+#: inc/theme-info/about.php:13
+#, php-format
+msgid "Welcome to %s - "
+msgstr ""
+
+#. translators: 1: theme name
+#: inc/theme-info/about.php:16
+#, php-format
+msgid ""
+"We hope this page will help you to setup %1$s with few clicks. We believe "
+"you will find it easy to use and perfect for your website development."
+msgstr ""
+
+#: inc/theme-info/about.php:21
+msgid "Theme Details"
+msgstr ""
+
+#: inc/theme-info/about.php:25
+msgid "View Demo"
+msgstr ""
+
+#: inc/theme-info/about.php:29
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:33 inc/theme-info/about.php:136
+#: inc/theme-info/class-about.php:603
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/theme-info/about.php:41
+msgid "Getting Started"
+msgstr ""
+
+#: inc/theme-info/about.php:42 inc/theme-info/about.php:58
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/theme-info/about.php:43
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info/about.php:49 inc/theme-info/about.php:124
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:50
+msgid "Find step by step instructions to setup theme easily."
+msgstr ""
+
+#: inc/theme-info/about.php:51
+msgid "View documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:59
+msgid ""
+"We recommend few steps to take so that you can get complete site like shown "
+"in demo."
+msgstr ""
+
+#: inc/theme-info/about.php:60
+msgid "Check recommended actions"
+msgstr ""
+
+#: inc/theme-info/about.php:67
+msgid "Customize Everything"
+msgstr ""
+
+#: inc/theme-info/about.php:68
+msgid "Start customizing every aspect of the website with customizer."
+msgstr ""
+
+#: inc/theme-info/about.php:69
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/theme-info/about.php:81
+msgid "Setting Static Front Page"
+msgstr ""
+
+#: inc/theme-info/about.php:82
+msgid ""
+"Create a new page to display on front page ( Ex: Home ) and assign \"Home\" "
+"template. Select A static page then Front page and Posts page to display "
+"front page specific sections. Note: Static page will be set automatically "
+"when you import demo content."
+msgstr ""
+
+#: inc/theme-info/about.php:85
+msgid "Static Front Page"
+msgstr ""
+
+#: inc/theme-info/about.php:88
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/theme-info/about.php:89
+msgid "Please install the Contact Form 7 plugin Before Importing Demo."
+msgstr ""
+
+#: inc/theme-info/about.php:95
+msgid "NewsLetter Plugin"
+msgstr ""
+
+#: inc/theme-info/about.php:96
+msgid "Please install the Newsletter Plugin Before Importing Demo."
+msgstr ""
+
+#: inc/theme-info/about.php:103
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/theme-info/about.php:104
+msgid ""
+"Please install the One Click Demo Import plugin to import the demo content. "
+"After activation go to Appearance >> Import Demo Data and import it."
+msgstr ""
+
+#: inc/theme-info/about.php:115 inc/theme-info/about.php:118
+msgid "Contact Support"
+msgstr ""
+
+#: inc/theme-info/about.php:117
+msgid ""
+"If you have any problem, feel free to create ticket on our dedicated Support "
+"forum."
+msgstr ""
+
+#: inc/theme-info/about.php:126
+msgid ""
+"Kindly check our theme documentation for detailed information and video "
+"instructions."
+msgstr ""
+
+#: inc/theme-info/about.php:127
+msgid "View Documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:133
+msgid "Customization Request"
+msgstr ""
+
+#: inc/theme-info/about.php:135
+#, php-format
+msgid ""
+"This is 100% free theme and has premium version.Either Upgrade to Pro or  "
+"Feel free to contact us any time if you need any customization service."
+msgstr ""
+
+#: inc/theme-info/class-about.php:164
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our %2$swelcome page%3$s."
+msgstr ""
+
+#: inc/theme-info/class-about.php:164
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: inc/theme-info/class-about.php:561
+msgid "Install"
+msgstr ""
+
+#: inc/theme-info/class-about.php:565
+msgid "Activate"
+msgstr ""
+
+#: inc/theme-info/class-about.php:569
+msgid "Deactivate"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:34
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-search.php:31
+#: template-parts/content.php:41
+msgid "Pages:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Eduline"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://html5wp.com/downloads/eduline-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Eduline is a simple, clean, responsive and user-friendly education WordPress "
+"theme specially designed for university, school, college or other "
+"educational institutions. The Eduline theme has powerful theme customization "
+"options such as custom header settings, logo, custom menu, social icons, "
+"featured slider, courses and more. It makes your website more engaging and "
+"informative."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "html5wp"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://html5wp.com/"
+msgstr ""

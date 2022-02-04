@@ -1,0 +1,714 @@
+/**
+ * NanoSupport Admin Stylesheet
+ * For admin panel styles.
+ *
+ * @author 	nanodesigns
+ * @package NanoSupport
+ */
+
+/** Get other necessary files */
+@import "../sass/__variables";
+@import '../sass/__mixins';
+@import '../sass/__alert';
+@import '../sass/__label';
+@import '../sass/__button';
+@import '../sass/__button-group';
+@import '../sass/__helper-classes';
+
+/*
+  This will hide the focus indicator if the element receives focus via the mouse,
+  but it will still show up on keyboard focus.
+*/
+.js-focus-visible :focus:not(.focus-visible) {
+	outline: none;
+}
+
+.ns-tooltip-icon{
+	color: $gray-light;
+	position: relative;
+	cursor: pointer;
+
+	&:after{
+		content: attr(data-tooltip);
+		display: none;
+		position: absolute;
+		width: 200px;
+		height: auto;
+		padding: 10px;
+		text-align: center;
+		left: 20px;
+		top: 0;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		background-color: #fff;
+		@include box-shadow( 0 0 15px rgba(0,0,0,0.15) );
+		z-index: 2;
+		font-family: $system-font;
+		font-size: 15px;
+		line-height: 1.3;
+	}
+
+	&:hover::after {
+		display: inline-block;
+	}
+}
+
+body.post-new-php{
+	.ns-tooltip-icon:after{
+		top: 20px;
+		right: 0;
+		left: auto;
+	}
+}
+
+.ns-button-danger{
+	background: #e14d43;
+    border-color: #d02c21 #ba281e #ba281e;
+    color: white;
+    @include box-shadow( 0 1px 0 #ba281e );
+    text-shadow: 0 -1px 1px #ba281e, 1px 0 1px #ba281e, 0 1px 1px #ba281e, -1px 0 1px #ba281e;
+}
+
+#nanosupport-responses{
+	border: 0;
+	background: transparent;
+    @include box-shadow( 0 0 0 0 ); //resetting box shadow
+
+	h3.hndle,
+	.handlediv{
+		display: none;
+	}
+
+	.inside{
+		padding: 0;
+	}
+}
+
+/* response meta box title */
+#poststuff #nanosupport-responses .hndle,
+.ticket-separator{
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	color: $gray-light;
+	text-align: center;
+	text-transform: uppercase;
+
+	&:before{
+		left: -1em;
+		margin: 0 0 0 -50%;
+    }
+
+    &:after{
+		left: 1em;
+		margin: 0 -50% 0 0;
+    }
+
+    &:before,
+	&:after{
+		background-color: #ccc;
+		content: '';
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+	}
+}
+
+.ticket-separator{
+	margin-bottom: 20px;
+}
+
+.ns-row{
+	&:before,
+	&:after{
+		display:table;
+		content:" ";
+	}
+
+	&:after{
+		clear: both;
+	}
+
+	* {
+	  	-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+	  			box-sizing: border-box;
+	}
+
+	*:before,
+	*:after {
+	  	-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+	  			box-sizing: border-box;
+	}
+}
+
+#ns-btn-edit-product{
+	float: right;
+	font-size: 13px;
+	cursor: pointer;
+	padding: 3px;
+}
+
+.ns-cards{
+	background-color: #fff;
+	@include box-shadow( 0 0 25px rgba(0,0,0,0.2) );
+}
+
+.ticket-response-cards,
+.ns-feedback{
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #e1e1e1;
+	border-top-width: 5px;
+	border-top-color: #ccc;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+.ns-feedback{
+	background-color: #ededed;
+	margin-bottom: 20px;
+	border-top-color: #0073aa;
+}
+
+.response-user{
+	float: left;
+	width: 75%;
+
+	.ticket-head{
+		font-size: 14px;
+		line-height: 1;
+		margin: 0;
+		padding: 0;
+
+		small{
+			font-weight: normal;
+		}
+	}
+}
+
+.response-handle{
+	float: right;
+	width: 25%;
+	text-align: right;
+}
+
+.ticket-response{
+	ul{
+		list-style-type: disc;
+		margin-left: 32px;
+	}
+
+	blockquote{
+		border: 0 solid #1a1a1a;
+    	border-left-width: 4px;
+    	overflow: hidden;
+    	padding: 0 0 0 1.263157895em;
+	}
+
+	pre{
+		border: 1px solid #d1d1d1;
+		white-space: pre;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		padding: 1em;
+		overflow: auto;
+		font-size: 16px;
+    	font-size: 1rem;
+	}
+}
+
+.ticket-response,
+.ns-feedback-form{
+	border-top: 1px solid #e1e1e1;
+	margin-top: 10px;
+	font-size: 16px;
+
+	p{
+		font-size: 16px;
+	}
+}
+
+.ns-feedback-form textarea{
+	font-size: 16px;
+}
+
+.delete-response{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ns-field-item{
+	width: 100%;
+	border-radius: 4px;
+}
+
+.ns-select,
+.ns-select-search{
+	min-width: 300px;
+}
+
+.ns-auto-select,
+.ns-auto-select-search{
+	max-width: 100%;
+}
+
+.ns-hide-default{
+	display: none;
+}
+
+.ns-head-col{
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	.ns-tooltip{
+		margin: 0;
+	}
+}
+
+.nanosupport-left-column{
+	float: left;
+	width: 70%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	.ns-textbox{
+		max-width: 300px;
+		border-color: #aaa;
+	}
+}
+
+.nanosupport-right-column{
+	float: right;
+	width: 28%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	a{
+		text-decoration: none;
+	}
+
+	h3{
+		padding-bottom: 5px;
+		border-bottom: 1px solid #ccc;
+
+		small{
+			color: #666;
+			font-size: 13px;
+		}
+	}
+}
+
+.nanosupport-50-left,
+.nanosupport-50-right{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.nanosupport-50-left{
+	float: left;
+	width: 49%;
+	margin-right: 1%;
+}
+
+.nanosupport-50-right{
+	float: right;
+	width: 49%;
+}
+
+@media (max-width:768px){
+	.nanosupport-left-column,
+	.nanosupport-right-column{
+		float: left;
+		width: 100%;
+		clear: both;
+		padding: 0;
+	}
+
+	.nanosupport-left-column,
+	.nanosupport-50-left{
+		margin-bottom: 20px;
+	}
+
+	.nanosupport-50-left,
+	.nanosupport-50-right{
+		float: left;
+		width: 100%;
+	}
+}
+
+.ns-system-status{
+	.ns-status-table{
+		border-width: 0;
+		margin-bottom: 10px;
+
+		thead th{
+			font-weight: bold;
+		}
+
+		th,
+		td{
+			width: 50%;
+		}
+	}
+
+	mark{
+		background-color: transparent;
+	}
+}
+
+/** Modified Bootstrap Class for Admin Panel */
+
+.ns-red{
+	color: red;
+}
+
+.responses-count{
+	display: inline-block;
+    padding: 0 8px;
+    height: 2em;
+    border-radius: 5px;
+    background-color: #72777c;
+    color: #fff;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 5px;
+
+    &:after{
+    	content: "";
+	    display: block;
+	    margin-left: 8px;
+	    width: 0;
+	    height: 0;
+	    border-top: 5px solid #72777c;
+	    border-right: 5px solid transparent;
+    }
+}
+
+.column-featured{
+	.dashicons-star-filled{
+		color: #0073aa;
+	}
+
+	.dashicons-star-empty{
+		color: #ccc;
+	}
+}
+
+// -------------------------------------------------
+// Dashboard
+// -------------------------------------------------
+
+#nanosupport-widget{
+	.dashboard-head{
+		font-weight: bold;
+		border-bottom: 1px solid #e1e1e1;
+		padding-bottom: 3px;
+	}
+
+	.nanosupport-left-column,
+	.nanosupport-right-column{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	@media (min-width: 768px) {
+		.ns-button-block{
+			width: 100%;
+			text-align: center;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.ns-button-danger,
+.wp-core-ui .button.ns-button-danger{
+	background: #da4453;
+    color: #fff;
+    border-color: #da4453;
+    @include box-shadow( 0 1px 0 #730404 );
+}
+
+.ns-button-info,
+.wp-core-ui .button.ns-button-info{
+	background: #37bc9b;
+    color: #fff;
+    border-color: #37bc9b;
+    @include box-shadow( 0 1px 0 #257b66 );
+}
+
+.ns-total-ticket-count{
+	font-weight: bold;
+}
+
+#ns-no-activity{
+	text-align: center;
+
+	.smiley:before {
+		content: "\f328";
+		font: normal 120px/1 dashicons;
+		speak: none;
+		display: block;
+		margin: 0 0 0 5px;
+		padding: 0;
+		text-indent: 0;
+		text-align: center;
+		position: relative;
+		-webkit-font-smoothing: antialiased;
+		text-decoration: none !important;
+		color: $gray-light;
+	}
+}
+
+.c3-legend-item{
+	font-family: inherit;
+	color: #444;
+	font-size: 13px;
+	line-height: 1.4em;
+}
+
+.c3 svg{
+	font-family: inherit;
+}
+
+/** -------------- Tooltip -------------- **/
+
+$tt_prop: all;
+$tt_time: 500ms;
+$tt_ease: ease;
+
+.ns-tooltip{
+	cursor: help;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+	color: $gray-light;
+	vertical-align: middle;
+	float: left;
+
+	&:hover .ns-tooltip-message{
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.ns-tooltip-message{
+	right: 16px;
+	top: 0;
+	@include transition( $tt_prop $tt_time $tt_ease );
+}
+
+@media (min-width: 767px) {
+	.ns-tooltip{
+		.ns-tooltip-message{
+			right: auto;
+		}
+	}
+}
+
+.ns-tooltip-message{
+	opacity: 0;
+	visibility: hidden;
+	display: inline-block;
+	position: absolute;
+	width: 200px;
+	padding: 10px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #444;
+	border: 1px solid #222;
+	font-size: 12px;
+	line-height: 17px;
+	@include box-shadow( 0 0 5px #333 );
+	text-align: center;
+	z-index: 5;
+	@include transition( $tt_prop $tt_time $tt_ease );
+
+	code,
+	pre{
+		background-color: rgba(0,0,0,0.3);
+		color: $label-danger-bg;
+	}
+}
+
+@media (min-width: 768px) {
+	.ns-tooltip-top{
+		.ns-tooltip-message{
+			top: auto;
+			right: -93px;
+			bottom: 19px;
+		}
+	}
+}
+
+.ns-tooltip-left{
+	.ns-tooltip-message{
+		right: 19px;
+	}
+}
+
+.ns-tooltip-right{
+	.ns-tooltip-message{
+		left: 19px;
+	}
+}
+
+
+// -------------------------------------------------
+// Metaboxes
+// -------------------------------------------------
+
+.misc-pub-section{
+	.ns-tooltip{
+		float: right;
+		margin-right: 0;
+	}
+	.ns-tooltip-message{
+		font-weight: normal;
+	}
+}
+
+
+// -------------------------------------------------
+// Thickbox | KB category meta
+// -------------------------------------------------
+
+/* Making thickbox modal window dynamic width-height */
+#TB_window {
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	top: 15% !important;
+	right: 10% !important;
+	bottom: 15% !important;
+	left: 10% !important;
+	width: 80% !important;
+	height: 50% !important;
+	overflow: hidden;
+}
+
+/* @media (min-width: 992px) {
+	#TB_window {
+		top: 10% !important;
+		bottom: 10% !important;
+		height: 80% !important;
+	}
+} */
+
+#TB_ajaxContent{
+	width: auto !important;
+	height: 85% !important;
+	padding-right: 0 !important;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+#TB_Image {
+	width: auto !important;
+	max-width: 100%;
+	height: auto !important;
+	max-height: 100%;
+	margin: auto !important;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 20px;
+	border: none !important;
+}
+
+.nanosupport-icon-button{
+	margin: 2px !important;
+	height: 32px !important;
+	padding: 0 9px 32px !important;
+	font-size: 17px !important;
+
+	&:hover{
+	    -webkit-transform: scale(1.5, 1.5); // Safari
+			-ms-transform: scale(1.5, 1.5); // IE 9
+	    		transform: scale(1.5, 1.5);
+	}
+}
+
+.ns-admin-btnlike{
+	color: #555;
+    border-color: #cccccc;
+    background: #f7f7f7;
+    @include box-shadow( 0 1px 0 #cccccc );
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    		box-sizing: border-box;
+}
+
+/** Override nProgress library CSS */
+
+#nprogress{
+	.bar{
+		background-color: #1c5daa; //#1c5daa
+		z-index: 9999;
+		height: 4px;
+	}
+
+	.spinner {
+		z-index: 9999;
+	}
+
+	.peg{
+		box-shadow: 0 0 10px #1c5daa, 0 0 5px #1c5daa;
+	}
+}
+
+// when admin bar is enabled 'top' to be redefined.
+body.admin-bar{
+	#nprogress{
+		.bar{
+			top: 32px;
+		}
+
+		.spinner{
+			top: 35px;
+		}
+	}
+}
+
+
+/**
+ * ---------------------------------------------
+ * NanoSupport Ticket Log
+ * ---------------------------------------------
+ */
+@import '../sass/__ticket-log';
+
+.reply-toggler{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+	&:before,
+	&:after{
+		background-color: #ccc;
+	}
+}

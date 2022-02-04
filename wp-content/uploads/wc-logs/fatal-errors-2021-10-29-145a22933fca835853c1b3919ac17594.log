@@ -1,0 +1,20 @@
+2021-10-29T13:44:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\pomo\streams.php en la línea 148
+
+2021-10-29T13:45:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-10-29T14:02:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-10-29T14:04:57+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-10-29T14:05:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-10-29T14:06:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\wp-db.php en la línea 2007
+
+2021-10-29T14:07:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-10-29T14:08:48+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-10-29T14:11:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2021-10-29T14:12:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php en la línea 441
+

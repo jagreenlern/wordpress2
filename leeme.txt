@@ -1,0 +1,23 @@
+_______INSTALACION Y CLAVES
+crear la bd wordpress usuario wordpress 666666 todos los permisos en esa bd.
+creamos el instalador crea usuario admin 666666 dentro de wordpress
+usuario cliente clave: cliente
+
+---------Para entrar en como admin
+http://localhost:8080/wordpress/wp-login.php para logearte como admintrador o habiendote logeado antes pulsas admin que esta diriguido aqui:
+http://localhost:8080/wordpress/wp-admin/
+
+---plugins mover a la carpeta 
+C:\xampp\htdocs\wordpress\wp-content\plugins
+instalar directamente desde plugins
+_______MAIL
+mailchimp--- usuario: jagreenlern clave: 666666
+todavia falta provarlo
+no usa mvc hay que instalar un plugin para ello	
+_______MENUS
+menus funcionan correctmente apariencia>nuevo menu hay que crear uno que sea primari menu:
+añadir home :enlaces personalizados http://www.localhost.com:8080/wordpress
+Todos las paginas relacionadas hay que agruparlas con una agrupacion.
+_______LOGIN/LOGOUT MODULO loginpress
+hay que decargar modulo de login y logout.
+_______LOGIN/LOGOUT MODULO cookieconsent todo configurado lo he probado.

@@ -1,0 +1,6 @@
+2021-10-13T12:11:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-content\plugins\all-in-one-seo-pack\admin\display\welcome.php en la línea 3
+
+2021-10-13T13:14:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-includes\functions.php en la línea 5467
+
+2021-10-13T13:15:09+00:00 CRITICAL Maximum execution time of 30 seconds exceeded en C:\xampp\htdocs\wordpress\wp-admin\includes\media.php en la línea 16
+

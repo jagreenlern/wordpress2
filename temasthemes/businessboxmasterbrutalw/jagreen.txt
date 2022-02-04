@@ -1,0 +1,24 @@
+usuarios------
+chat admin js
+noticias
+servicios(etiquetas soporte)
+proyectos(etiquetas soporte)
+asistencia
+contactar con nosotos(email)
+trabaja con nosotros(email)
+contactar con nuestro equipo (email)
+subscripcion email
+tienda
+admin---------
+news feed admin
+subscripcion email
+seguidores de redes sociales.
+calendario proyectos
+calendario servicios
+fotos
+mapas (google maps)
+graficos
+invoice es mandado por mail esta en admin es mandado a los administradores y al encargado de comprar proveedor
+
+Rol usuarios: Cliente,admin, comprarproveedor
+Trenting (campañas marqueting) y live 

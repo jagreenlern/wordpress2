@@ -1,0 +1,368 @@
+@media (min-width: 991px) and (max-width: 1280px) {
+.courses .owl-carousel .owl-nav .owl-prev,
+.testimonials .owl-carousel .owl-nav .owl-prev,
+.events .owl-carousel .owl-nav .owl-prev,
+.blog .owl-carousel .owl-nav .owl-prev{
+	left: -55px;
+}
+.courses .owl-carousel .owl-nav .owl-next,
+.testimonials .owl-carousel .owl-nav .owl-next,
+.events .owl-carousel .owl-nav .owl-next,
+.blog .owl-carousel .owl-nav .owl-next {
+	right: -55px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.section-title h2 {
+	font-size: 30px;
+}
+.header .content li {
+	font-size: 13px;
+}
+.header .nav li .dropdown {
+	width: 192px;
+}
+.hero-area .search-form .form-group {
+	margin-top: 20px;
+}
+.hero-area .search-form .form-group .btn {
+	top: 40px;
+}
+.fun-facts .single-fact i {
+	font-size: 25px;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+}
+.fun-facts .single-fact {
+	padding-left: 75px;
+}
+.team .team-content p span{
+	display:block;
+}
+.container{
+	width:auto;
+}
+.section{
+	padding:50px 0px;
+}
+.section-title {
+	padding: 0px 50px;
+}
+.header .content span {
+	padding: 0px 10px;
+}
+.footer {
+	padding: 0;
+}
+.header .nav li a {
+	padding: 9px 15px;
+}
+.hero-area {
+	height: 600px;
+}
+.hero-area .hero-head .slider-text {
+	padding-right: 0;
+}
+.hero-area .inner-head {
+	margin-top: 100px;
+}
+.hero-area .trip-main {
+	margin-top: 50px;
+}
+.hero-area .trip-main .form-group {
+	margin-bottom: -33px;
+}
+.hero-area .trip-main .form-group .btn {
+	transform: translateY(-32px);
+}
+.events .single-event .image img {
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	margin-top: 12px;
+	margin-left:0;
+}
+.courses.single .single-info.button .btn {
+	background: #333;
+	color: #fff;
+	margin-top: 15px;
+}
+.blog-sidebar {
+	margin-top: 30px;
+}
+.become .become-text {
+	padding: 0px 80px;
+}
+.footer .footer-top .logo-text {
+	color: #777;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+
+}
+
+@media only screen and (max-width: 767px){
+.breadcrumbs {
+	padding: 50px 0;
+}
+.breadcrumbs h2 {
+	font-size: 25px;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 0;
+}
+.header .content li {
+	padding: 0;
+	margin: 0;
+}
+.header .content li:before{
+	display:none;
+}
+.header .logo img{
+	max-width: 80%;
+	margin:0;
+}
+.slicknav_menu {
+	background: transparent;
+	padding: 5px;
+}
+.slicknav_nav {
+	clear: both;
+	color: #fff;
+	margin: 0;
+	background: #2980B9;
+}
+.slicknav_btn:hover{
+	background:#333;
+	color:#fff;
+}
+.slicknav_nav .slicknav_item a i{
+	display:none;
+}
+.slicknav_nav li:hover a{
+	background:#fff;
+	color:#252525;
+}
+.slicknav_nav li .dropdown li a,
+.slicknav_nav li .dropdown li .dropdown li a{
+	background:transparent;
+	color:#fff;
+}
+.slicknav_nav li .dropdown li:hover a,
+.slicknav_nav li .dropdown li .dropdown li:hover a{
+	background:#fff;
+	color:#252525;
+}
+.slicknav_nav .slicknav_arrow{
+	float:right;
+}
+.section-title h2 {
+	font-size: 30px;
+}
+.section-title p{
+	font-size:14px;
+}
+.button .btn{
+	font-size:14px;
+}
+.slicknav_menu {
+	display: block;
+	float: none;
+}
+.slicknav_btn {
+	margin: 0;
+	position: relative;
+	top: -7px;
+	background: #2980B9;
+}
+.header .navbar{
+	display:none;
+}
+.header .content {
+	float: none;
+	text-align: center;
+}
+.header .login {
+	float: none;
+	text-align: center;
+	margin: 11px 0;
+}
+.header .header-inner {
+	padding: 15px 0;
+	background:#fff;
+}
+.hero-area .inner-head {
+	margin-top: 35px;
+}
+.hero-area .hero-head .slider-text {
+	padding-right: 0px;
+	margin-top: 50px;
+}
+.hero-area .hero-head .slider-text h1 {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 8px;
+}
+.hero-area .hero-head .slider-text p {
+	font-size: 14px;
+	color: #ccc;
+	padding-right:0px;
+	margin-bottom: 20px;
+}
+.hero-area .trip-main .form-group {
+	width: 100%;
+}
+.hero-area .trip-main .form-group {
+	margin-bottom: 15px;
+}
+.hero-area .trip-main .form-group .btn {
+	top: -35px;
+}
+.hero-area .slider-text h1 {
+	font-size: 27px;
+	line-height: 35px;
+}
+.hero-area .slider-text p{
+	padding:0;
+}
+.hero-area .search-form .form-group{
+	margin-bottom:15px;
+}
+.hero-area .search-form .form-group .btn {
+	top: 0;
+}
+.fun-facts .single-fact {
+	padding-left: 86px;
+}
+.apply .apply-text h1 {
+	font-size: 25px;
+}
+.fun-facts .single-fact i {
+	left: 5px;
+}
+.courses .single-content .price {
+	text-align: left;
+	margin-top: 12px;
+}
+.courses .course-meta {
+	background: #fff;
+	overflow: hidden;
+	padding: 9px 21px;
+	border-top: 1px solid #e7e7e7;
+}
+.courses .course-meta .ster {
+	text-align: center;
+	margin-top: -32px;
+}
+.courses .course-meta .love p {
+	color: #666;
+	margin-top: -33px;
+}
+.testimonials .left {
+	height: 225px;
+}
+.testimonials .testi-inner {
+	padding: 50px 48px;
+}
+.blog-sidebar {
+	margin-top: 30px;
+}
+.blog-sidebar .single-widget {
+	margin-bottom: 20px;
+}
+.events{
+	text-align:center;
+}
+.events .single-event .date {
+	text-align: center;
+	margin-top:0px;
+	border:none;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0px;
+}
+.events .single-event .cat {
+	margin-top:0px;
+	border:none;
+	border-bottom: 1px solid #ddd;
+	padding: 19px 0px;
+}
+.events .single-event .location {
+	position: relative;
+	margin-top:0px;
+	border:none;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0px;
+}
+.events .single-event .location i {
+	position: absolute;
+	left: 50px;
+	top: 17px;
+	font-size: 44px;
+	color: #2980b9;
+	opacity: 0.7;
+}
+.events .single-event .image img {
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	margin-left:0px;
+	margin-top: 15px;
+}
+.courses.single .single-info {
+	float: none;
+	text-align: left;
+	overflow: hidden;
+	border-right: 1px solid #ddd;
+	padding: 0px 22px;
+	display: block;
+	margin-bottom: 25px;
+}
+.become .become-text {
+	padding: 0px;
+}
+.apply{
+	text-align:center;
+}
+.apply .apply-button {
+	text-align: center;
+	margin-top: 27px;
+}
+.footer .footer-top .logo-text {
+	padding: 0px;
+}
+.footer .copyright p {
+	text-align: center;
+}
+.footer .social {
+	text-align: center;
+	margin-top: 11px;
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+html .mobile{
+	margin-top: -46px;
+}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 300px){
+html .mobile{
+	margin-top: -46px;
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+body.logged-in .header.sticky .header-menu{
+	top:0px;
+}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 300px){
+body.logged-in .header.sticky .header-menu{
+	top:0px;
+}
+}

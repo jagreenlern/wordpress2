@@ -1,0 +1,167 @@
+/*
+Theme Name: University Hub
+Description: Used to style blocks.
+*/
+
+/* Colors */
+.has-black-color {
+    color: #000000;
+}
+
+.has-black-background-color {
+    background-color: #000000;
+}
+
+.has-white-color {
+    color: #ffffff;
+}
+
+.has-white-background-color {
+    background-color: #ffffff;
+}
+
+.has-gray-color {
+    color: #727272;
+}
+
+.has-gray-background-color {
+    background-color: #727272;
+}
+
+.has-blue-color {
+    color: #179bd7;
+}
+
+.has-blue-background-color {
+    background-color: #179bd7;
+}
+
+.has-navy-blue-color {
+    color: #253b80;
+}
+
+.has-navy-blue-background-color {
+    background-color: #253b80;
+}
+
+.has-light-blue-color {
+    color: #f7fcfe;
+}
+
+.has-light-blue-background-color {
+    background-color: #f7fcfe;
+}
+
+.has-orange-color {
+    color: #ff6000;
+}
+
+.has-orange-background-color {
+    background-color: #ff6000;
+}
+
+.has-green-color {
+    color: #77a464;
+}
+
+.has-green-background-color {
+    background-color: #77a464;
+}
+
+.has-red-color {
+    color: #e4572e;
+}
+
+.has-red-background-color {
+    background-color: #e4572e;
+}
+
+.has-yellow-color {
+    color: #f4a024;
+}
+
+.has-yellow-background-color {
+    background-color: #f4a024;
+}
+
+/* Custom Typography Preset */
+
+.has-small-font-size {
+  font-size: 13px;
+}
+
+.has-normal-font-size {
+  font-size: 14px;
+}
+
+.has-large-font-size {
+  font-size: 30px;
+}
+
+.has-huge-font-size {
+  font-size: 36px;
+}
+
+/* Smaller than standard 1024 (devices and browsers) */
+@media only screen and (max-width:1023px) {
+    .has-large-font-size {
+      font-size: 28px;
+    }
+
+    .has-huge-font-size {
+      font-size: 32px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px) {
+    .has-large-font-size {
+      font-size: 25px;
+    }
+
+    .has-huge-font-size {
+      font-size: 30px;
+    }
+}
+
+/* Margin//Padding */
+.entry-content .blocks-gallery-grid {
+    padding-left: 0;
+}
+
+/* Button */
+
+.wp-block-button .wp-block-button__link {
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    vertical-align: baseline;
+}
+
+.entry-content .wp-block-button:not(.is-style-outline) .wp-block-button__link {
+    border: 0;
+}
+
+.entry-content .wp-block-button.is-style-outline .wp-block-button__link:hover,
+.entry-content .wp-block-button.is-style-outline .wp-block-button__link:focus {
+    border: 2px solid;
+}
+
+.wp-block-button__link {
+    background: #179bd7;
+    color: #fff;
+}
+
+.is-style-outline .wp-block-button__link:not(.has-text-color) {
+    color: #179bd7;
+}
+
+.wp-block-button__link:hover,
+.wp-block-button__link:focus,
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus {
+    background-color: #ff6000;
+    color: #fff;
+}

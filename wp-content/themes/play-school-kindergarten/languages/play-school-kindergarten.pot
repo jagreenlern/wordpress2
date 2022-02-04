@@ -1,0 +1,457 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Play School Kindergarten\n"
+"Last-Translator: \n"
+"Language-Team: Luzuk <support@luzuk.com>\n"
+"Language: English\n"
+"MIME-Version: 1.2.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:17
+msgid 'Oops! That page can&rsquo;t be found.'
+msgstr ""
+
+#: 404.php:19
+msgid 'Return to home page'
+msgstr ""
+
+#: 404.php:23
+msgid 'It looks like nothing was found at this location. Maybe try a search?'
+msgstr ""
+
+#: comments.php:23
+msgid 'One thought on &ldquo;%s&rdquo;'
+msgstr ""
+
+#: comments.php:32
+msgid 'comments title'
+msgstr ""
+
+#: comments.php:61
+msgid 'Comments are closed.'
+msgstr ""
+
+#: template-parts/footer/site-info.php:12
+msgid 'By Luzuk'
+msgstr ""
+
+#: header.php:26
+msgid 'Skip to content'
+msgstr ""
+
+#: header.php:48
+msgid 'Facebook'
+msgstr ""
+
+#: header.php:51
+msgid 'Twitter'
+msgstr ""
+
+#: header.php:54
+msgid 'Linkedin'
+msgstr ""
+
+#: header.php:57
+msgid 'Instagram'
+msgstr ""
+
+#: header.php:98
+msgid 'Open Menu'
+msgstr ""
+
+#: header.php:101
+msgid 'Top Menu'
+msgstr ""
+
+#: header.php:111
+msgid 'Close Menu'
+msgstr ""
+
+#: header.php:118
+msgid 'Our Courses'
+msgstr ""
+
+#: searchform.php:16
+msgid 'Search for:'
+msgstr ""
+
+#: searchform.php:17
+#: searchform.php:19
+msgid 'Search'
+msgstr ""
+
+#: searchform.php:17
+msgid 'placeholder'
+msgstr ""
+
+#: searchform.php:19
+msgid 'submit button'
+msgstr ""
+
+#: archive.php:49
+#: archive.php:82
+#: archive.php:114
+#: archive.php:146
+#: archive.php:180
+#: archive.php:215
+#: archive.php:249
+#: index.php:51
+#: index.php:86
+#: index.php:120
+#: index.php:155
+#: index.php:191
+#: index.php:227
+#: index.php:261
+#: search.php:52
+#: search.php:88
+#: search.php:123
+#: search.php:158
+#: search.php:195
+#: search.php:234
+#: search.php:271
+msgid 'Previous page'
+msgstr ""
+
+#: archive.php:50
+#: archive.php:83
+#: archive.php:115
+#: archive.php:147
+#: archive.php:181
+#: archive.php:216
+#: archive.php:250
+#: index.php:52
+#: index.php:87
+#: index.php:121
+#: index.php:156
+#: index.php:192
+#: index.php:228
+#: index.php:262
+#: search.php:53
+#: search.php:89
+#: search.php:124
+#: search.php:159
+#: search.php:196
+#: search.php:235
+#: search.php:272
+msgid 'Next page'
+msgstr ""
+
+#: archive.php:51
+#: archive.php:84
+#: archive.php:116
+#: archive.php:148
+#: archive.php:182
+#: archive.php:217
+#: archive.php:251
+#: index.php:53
+#: index.php:88
+#: index.php:122
+#: index.php:157
+#: index.php:193
+#: index.php:229
+#: index.php:263
+#: search.php:54
+#: search.php:90
+#: search.php:125
+#: search.php:160
+#: search.php:197
+#: search.php:236
+#: search.php:273
+msgid 'Page'
+msgstr ""
+
+#: index.php:19
+msgid 'Posts'
+msgstr ""
+
+#: search.php:18
+#: template-parts/post/content-none.php:14
+msgid 'Nothing Found'
+msgstr ""
+
+#: search.php:16
+msgid 'Search Results for: %s'
+msgstr ""
+
+#: search.php:42
+#: search.php:78
+#: search.php:113
+#: search.php:148
+#: search.php:185
+#: search.php:224
+#: search.php:261
+msgid 'Sorry, but nothing matched your search terms. Please try again with some different keywords.'
+msgstr ""
+
+#: single.php:35
+#: single.php:61
+#: single.php:86
+#: single.php:111
+#: single.php:138
+#: single.php:166
+#: single.php:193
+msgid 'Previous Post'
+msgstr ""
+
+#: single.php:35
+#: single.php:61
+#: single.php:86
+#: single.php:111
+#: single.php:138
+#: single.php:166
+#: single.php:193
+msgid 'Previous'
+msgstr ""
+
+#: single.php:36
+#: single.php:62
+#: single.php:87
+#: single.php:112
+#: single.php:139
+#: single.php:167
+#: single.php:194
+msgid 'Next Post'
+msgstr ""
+
+#: single.php:36
+#: single.php:62
+#: single.php:87
+#: single.php:112
+#: single.php:139
+#: single.php:167
+#: single.php:194
+msgid 'Next'
+msgstr ""
+
+#: functions.php:40
+msgid 'Primary Menu'
+msgstr ""
+
+#: functions.php:86
+msgid 'Welcome to Luzuk!!'
+msgstr ""
+
+#: functions.php:87
+msgid 'Thank you for choosing Play School Kindergarten theme. It will be our pleasure to have you on our Welcome page to serve you better.'
+msgstr ""
+
+#: functions.php:88
+msgid 'GET STARTED'
+msgstr ""
+
+#: functions.php:94
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:96
+msgid 'Add widgets here to appear in your sidebar on blog posts and archive pages.'
+msgstr ""
+
+#: functions.php:106
+#: functions.php:116
+msgid 'Add widgets here to appear in your pages and posts'
+msgstr ""
+
+#: functions.php:104
+msgid 'Sidebar 2'
+msgstr ""
+
+#: functions.php:114
+msgid 'Sidebar 3'
+msgstr ""
+
+#: functions.php:124
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:134
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:154
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:126
+#: functions.php:136
+#: functions.php:146
+#: functions.php:156
+msgid 'Add widgets here to appear in your footer.'
+msgstr ""
+
+#: functions.php:208
+msgid 'Expand child menu'
+msgstr ""
+
+#: functions.php:209
+msgid 'Collapse child menu'
+msgstr ""
+
+#: functions.php:250
+msgid 'Kindergarten WordPress Theme'
+msgstr ""
+
+#: template-parts/page/content-page.php:23
+#: template-parts/post/content-audio.php:62
+#: template-parts/post/content-gallery.php:52
+#: template-parts/post/content-image.php:45
+#: template-parts/post/content-video.php:62
+#: template-parts/post/content.php:45
+#: template-parts/post/grid-layout.php:46
+msgid 'Pages:'
+msgstr ""
+
+#: page-template/custom-home-page.php:38
+msgid 'Read More'
+msgstr ""
+
+#: page-template/custom-home-page.php:53
+msgid "Prev"
+msgstr ""
+
+#: page-template/custom-home-page.php:57
+msgid "Next"
+msgstr ""
+
+#: template-parts/post/content-none.php:23
+msgid 'Ready to publish your first post? <a href="%s">Get started here</a>.'
+msgstr ""
+
+#: template-parts/post/content-none.php:29
+msgid 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.'
+msgstr ""
+
+#: inc/customizer.php:17
+msgid 'Show / Hide Site Title'
+msgstr ""
+
+#: inc/customizer.php:27
+msgid 'Show / Hide Site Tagline'
+msgstr ""
+
+#: inc/customizer.php:35
+msgid 'Theme Settings'
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Description of what this panel does."
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:47
+#: inc/customizer.php:58
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid 'Do you want this section'
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Three Columns"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Four Columns"
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid 'Contact Details'
+msgstr ""
+
+#: inc/customizer.php:78
+msgid 'Add Facebook link'
+msgstr ""
+
+#: inc/customizer.php:89
+msgid 'Add Twitter link'
+msgstr ""
+
+#: inc/customizer.php:100
+msgid 'Add Linkedin Link'
+msgstr ""
+
+#: inc/customizer.php:111
+msgid 'Add Instagram Link'
+msgstr ""
+
+#: inc/customizer.php:122
+msgid 'Email Address'
+msgstr ""
+
+#: inc/customizer.php:133
+msgid 'Address'
+msgstr ""
+
+#: inc/customizer.php:144
+msgid 'Add Courses Page Link'
+msgstr ""
+
+#: inc/customizer.php:152
+msgid 'Slider Settings'
+msgstr ""
+
+#: inc/customizer.php:163
+msgid 'Select Slide Image Page'
+msgstr ""
+
+#: inc/customizer.php:171
+msgid 'About Section'
+msgstr ""
+
+#: inc/customizer.php:172
+msgid 'Add About sections below.'
+msgstr ""
+
+#: inc/customizer.php:188
+msgid 'Title'
+msgstr ""
+
+#: inc/customizer.php:200
+msgid 'Select post'
+msgstr ""
+
+#: inc/customizer.php:206
+#: inc/customizer.php:216
+msgid 'Footer Text'
+msgstr ""
+
+#: inc/customizer.php:248
+msgid 'Front Page Section %d Content'
+msgstr ""
+
+#: inc/customizer.php:249
+msgid 'Select pages to feature in each area from the dropdowns. Add an image to a section by setting a featured image in the page editor. Empty sections will not be displayed.'
+msgstr ""
+
+#: inc/customizer.php:368
+msgid 'Kindergarten Pro Theme'
+msgstr ""
+
+#: inc/customizer.php:369
+msgid 'Go Pro'
+msgstr ""
